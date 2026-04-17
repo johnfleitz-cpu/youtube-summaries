@@ -23,11 +23,11 @@ from youtube_transcript_api import (
 ROOT = Path(__file__).resolve().parent.parent
 HTML_PATH = ROOT / "index.html"
 
-PLAYLIST_ID = os.environ["PLAYLIST_ID"]
+PLAYLIST_IDS = [p.strip() for p in os.environ["PLAYLIST_IDS"].split(",") if p.strip()]
 YT_KEY = os.environ["YOUTUBE_API_KEY"]
 ANTHROPIC_KEY = os.environ["ANTHROPIC_API_KEY"]
 
-MODEL = "claude-opus-4-7"
+MODEL = "claude-haiku-4-5"
 MAX_TRANSCRIPT_CHARS = 180_000
 
 SYSTEM_PROMPT = """You produce HTML summaries of YouTube videos in a very specific format.
@@ -71,13 +71,13 @@ def existing_video_ids(html_text: str) -> set[str]:
     return set(VIDEO_ID_RE.findall(html_text))
 
 
-def fetch_playlist_items(yt) -> list[str]:
+def fetch_playlist_items(yt, playlist_id: str) -> list[str]:
     ids: list[str] = []
     page = None
     while True:
         req = yt.playlistItems().list(
             part="contentDetails,snippet",
-            playlistId=PLAYLIST_ID,
+            playlistId=playlist_id,
             maxResults=50,
             pageToken=page,
         )
@@ -93,6 +93,23 @@ def fetch_playlist_items(yt) -> list[str]:
         if not page:
             break
     return ids
+
+
+def fetch_all_playlists(yt) -> list[str]:
+    seen: set[str] = set()
+    combined: list[str] = []
+    for pid in PLAYLIST_IDS:
+        try:
+            ids = fetch_playlist_items(yt, pid)
+        except HttpError as e:
+            print(f"playlist {pid} error: {e}", file=sys.stderr)
+            continue
+        print(f"  {pid}: {len(ids)} videos")
+        for v in ids:
+            if v not in seen:
+                seen.add(v)
+                combined.append(v)
+    return combined
 
 
 def fetch_video_metadata(yt, video_id: str) -> dict | None:
@@ -181,8 +198,7 @@ def generate_summary(client: anthropic.Anthropic, meta: dict, transcript: str) -
     )
     resp = client.messages.create(
         model=MODEL,
-        max_tokens=8000,
-        thinking={"type": "adaptive"},
+        max_tokens=4096,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": user}],
     )
@@ -245,12 +261,12 @@ def main() -> int:
     print(f"Already summarized: {len(have)} videos")
 
     yt = build("youtube", "v3", developerKey=YT_KEY, cache_discovery=False)
-    try:
-        playlist_ids = fetch_playlist_items(yt)
-    except HttpError as e:
-        print(f"YouTube API error: {e}", file=sys.stderr)
+    print(f"Fetching {len(PLAYLIST_IDS)} playlists:")
+    playlist_ids = fetch_all_playlists(yt)
+    print(f"Playlist total (deduped): {len(playlist_ids)} videos")
+    if not playlist_ids:
+        print("No playlist items fetched — aborting.", file=sys.stderr)
         return 1
-    print(f"Playlist has: {len(playlist_ids)} videos")
 
     # Preserve playlist order; newest-first assumed, but we process in playlist
     # order so the final prepend keeps the most-recent-first convention.

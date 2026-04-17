@@ -30,6 +30,8 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          WEBSHARE_USERNAME: ${{ secrets.WEBSHARE_USERNAME }}
+          WEBSHARE_PASSWORD: ${{ secrets.WEBSHARE_PASSWORD }}
           PLAYLIST_IDS: PL_pfXMewWD95UQoDoyK8ktHzamHUVeHoM,PL_pfXMewWD97y6pXix7t4snRuLqo8fUOs
         run: python scripts/update_summaries.py
 

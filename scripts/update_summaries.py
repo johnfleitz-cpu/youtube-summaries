@@ -19,6 +19,7 @@ from youtube_transcript_api import (
     VideoUnavailable,
     YouTubeTranscriptApi,
 )
+from youtube_transcript_api.proxies import WebshareProxyConfig
 
 ROOT = Path(__file__).resolve().parent.parent
 HTML_PATH = ROOT / "index.html"
@@ -133,33 +134,60 @@ def fetch_video_metadata(yt, video_id: str) -> dict | None:
     }
 
 
-def fetch_transcript(video_id: str) -> str | None:
-    try:
-        entries = YouTubeTranscriptApi.get_transcript(
-            video_id, languages=["en", "en-US", "en-GB"]
+_yt_api: YouTubeTranscriptApi | None = None
+
+
+def get_yt_api() -> YouTubeTranscriptApi:
+    global _yt_api
+    if _yt_api is not None:
+        return _yt_api
+    user = os.environ.get("WEBSHARE_USERNAME", "").strip()
+    pw = os.environ.get("WEBSHARE_PASSWORD", "").strip()
+    if user and pw:
+        print(f"Using Webshare rotating proxy (user {user[:4]}…)")
+        _yt_api = YouTubeTranscriptApi(
+            proxy_config=WebshareProxyConfig(proxy_username=user, proxy_password=pw)
         )
-    except (TranscriptsDisabled, NoTranscriptFound, VideoUnavailable):
+    else:
+        print("WARNING: no Webshare creds set — transcripts may be blocked")
+        _yt_api = YouTubeTranscriptApi()
+    return _yt_api
+
+
+def _snippets_to_text(fetched) -> str:
+    parts = []
+    for s in fetched:
+        t = getattr(s, "text", None) or (s.get("text") if isinstance(s, dict) else None)
+        if t:
+            parts.append(t)
+    text = " ".join(parts)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def fetch_transcript(video_id: str) -> str | None:
+    api = get_yt_api()
+    try:
+        fetched = api.fetch(video_id, languages=["en", "en-US", "en-GB"])
+    except (TranscriptsDisabled, VideoUnavailable):
         return None
-    except Exception as e:
-        # Fall back to whatever is available.
+    except NoTranscriptFound:
         try:
-            listing = YouTubeTranscriptApi.list_transcripts(video_id)
-            # Prefer manual, any language
-            for t in listing:
-                try:
-                    entries = t.fetch()
-                    break
-                except Exception:
-                    continue
-            else:
-                print(f"  transcript error ({e!r}); no fallback worked", file=sys.stderr)
-                return None
-        except Exception as e2:
-            print(f"  transcript error ({e!r} / {e2!r})", file=sys.stderr)
+            listing = api.list(video_id)
+        except Exception as e:
+            print(f"  list transcripts failed: {e!r}", file=sys.stderr)
             return None
-    text = " ".join(e["text"] for e in entries if e.get("text"))
-    text = re.sub(r"\s+", " ", text).strip()
-    return text or None
+        for t in listing:
+            try:
+                fetched = t.fetch()
+                break
+            except Exception:
+                continue
+        else:
+            return None
+    except Exception as e:
+        print(f"  transcript error: {type(e).__name__}: {str(e)[:150]}", file=sys.stderr)
+        return None
+    return _snippets_to_text(fetched) or None
 
 
 def parse_duration_minutes(iso: str) -> int:

@@ -5,8 +5,10 @@ from __future__ import annotations
 
 import html
 import os
+import random
 import re
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -164,30 +166,52 @@ def _snippets_to_text(fetched) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def fetch_transcript(video_id: str) -> str | None:
-    api = get_yt_api()
+def _try_fetch_once(api, video_id):
     try:
-        fetched = api.fetch(video_id, languages=["en", "en-US", "en-GB"])
-    except (TranscriptsDisabled, VideoUnavailable):
-        return None
-    except NoTranscriptFound:
-        try:
-            listing = api.list(video_id)
-        except Exception as e:
-            print(f"  list transcripts failed: {e!r}", file=sys.stderr)
-            return None
-        for t in listing:
-            try:
-                fetched = t.fetch()
-                break
-            except Exception:
-                continue
-        else:
-            return None
+        return api.fetch(video_id, languages=["en", "en-US", "en-GB"]), None
+    except (TranscriptsDisabled, VideoUnavailable) as e:
+        return None, ("fatal", e)
+    except NoTranscriptFound as e:
+        return None, ("no_english", e)
     except Exception as e:
-        print(f"  transcript error: {type(e).__name__}: {str(e)[:150]}", file=sys.stderr)
-        return None
-    return _snippets_to_text(fetched) or None
+        return None, ("transient", e)
+
+
+def fetch_transcript(video_id: str, attempts: int = 3) -> str | None:
+    api = get_yt_api()
+    last_err = None
+    for i in range(attempts):
+        fetched, err = _try_fetch_once(api, video_id)
+        if fetched is not None:
+            return _snippets_to_text(fetched) or None
+        kind, last_err = err
+        if kind == "fatal":
+            return None
+        if kind == "no_english":
+            # Try any-language fallback (single attempt)
+            try:
+                for t in api.list(video_id):
+                    try:
+                        fetched = t.fetch()
+                        return _snippets_to_text(fetched) or None
+                    except Exception:
+                        continue
+            except Exception:
+                pass
+            return None
+        # transient: back off and retry with fresh proxy IP
+        if i < attempts - 1:
+            wait = 1.5 * (i + 1) + random.uniform(0, 1.5)
+            print(
+                f"  transient fetch error ({type(last_err).__name__}); retry {i+1}/{attempts-1} in {wait:.1f}s",
+                file=sys.stderr,
+            )
+            time.sleep(wait)
+    print(
+        f"  transcript failed after {attempts} attempts: {type(last_err).__name__}: {str(last_err)[:150]}",
+        file=sys.stderr,
+    )
+    return None
 
 
 def parse_duration_minutes(iso: str) -> int:

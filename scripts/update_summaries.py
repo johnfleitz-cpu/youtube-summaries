@@ -21,7 +21,13 @@ from youtube_transcript_api import (
     VideoUnavailable,
     YouTubeTranscriptApi,
 )
+from youtube_transcript_api._errors import CouldNotRetrieveTranscript
 from youtube_transcript_api.proxies import WebshareProxyConfig
+
+try:
+    from youtube_transcript_api import AgeRestricted
+except ImportError:  # older library versions
+    AgeRestricted = None  # type: ignore
 
 ROOT = Path(__file__).resolve().parent.parent
 HTML_PATH = ROOT / "index.html"
@@ -166,10 +172,15 @@ def _snippets_to_text(fetched) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+FATAL_TRANSCRIPT_ERRORS: tuple = (TranscriptsDisabled, VideoUnavailable)
+if AgeRestricted is not None:
+    FATAL_TRANSCRIPT_ERRORS = FATAL_TRANSCRIPT_ERRORS + (AgeRestricted,)
+
+
 def _try_fetch_once(api, video_id):
     try:
         return api.fetch(video_id, languages=["en", "en-US", "en-GB"]), None
-    except (TranscriptsDisabled, VideoUnavailable) as e:
+    except FATAL_TRANSCRIPT_ERRORS as e:
         return None, ("fatal", e)
     except NoTranscriptFound as e:
         return None, ("no_english", e)
@@ -186,9 +197,9 @@ def fetch_transcript(video_id: str, attempts: int = 3) -> str | None:
             return _snippets_to_text(fetched) or None
         kind, last_err = err
         if kind == "fatal":
+            print(f"  [{video_id}] fatal: {type(last_err).__name__}", file=sys.stderr)
             return None
         if kind == "no_english":
-            # Try any-language fallback (single attempt)
             try:
                 for t in api.list(video_id):
                     try:
@@ -196,19 +207,19 @@ def fetch_transcript(video_id: str, attempts: int = 3) -> str | None:
                         return _snippets_to_text(fetched) or None
                     except Exception:
                         continue
-            except Exception:
-                pass
+            except Exception as e:
+                print(f"  [{video_id}] list-fallback failed: {type(e).__name__}", file=sys.stderr)
+            print(f"  [{video_id}] no transcript in any language", file=sys.stderr)
             return None
-        # transient: back off and retry with fresh proxy IP
         if i < attempts - 1:
             wait = 1.5 * (i + 1) + random.uniform(0, 1.5)
             print(
-                f"  transient fetch error ({type(last_err).__name__}); retry {i+1}/{attempts-1} in {wait:.1f}s",
+                f"  [{video_id}] transient ({type(last_err).__name__}); retry {i+1}/{attempts-1} in {wait:.1f}s",
                 file=sys.stderr,
             )
             time.sleep(wait)
     print(
-        f"  transcript failed after {attempts} attempts: {type(last_err).__name__}: {str(last_err)[:150]}",
+        f"  [{video_id}] failed after {attempts}: {type(last_err).__name__}: {str(last_err)[:120]}",
         file=sys.stderr,
     )
     return None

@@ -188,29 +188,36 @@ def _try_fetch_once(api, video_id):
         return None, ("transient", e)
 
 
-def fetch_transcript(video_id: str, attempts: int = 3) -> str | None:
+def fetch_transcript(video_id: str, attempts: int = 3) -> tuple[str | None, str | None]:
+    """Returns (transcript, None) on success, (None, reason) on skip.
+    Reason is the exception class name (e.g. 'TranscriptsDisabled',
+    'AgeRestricted', 'VideoUnplayable') or 'NoTranscriptInAnyLanguage' /
+    'TransientFailure' for non-class cases."""
     api = get_yt_api()
     last_err = None
     for i in range(attempts):
         fetched, err = _try_fetch_once(api, video_id)
         if fetched is not None:
-            return _snippets_to_text(fetched) or None
+            text = _snippets_to_text(fetched) or None
+            return text, (None if text else "EmptyTranscript")
         kind, last_err = err
         if kind == "fatal":
-            print(f"  [{video_id}] fatal: {type(last_err).__name__}", file=sys.stderr)
-            return None
+            reason = type(last_err).__name__
+            print(f"  [{video_id}] fatal: {reason}", file=sys.stderr)
+            return None, reason
         if kind == "no_english":
             try:
                 for t in api.list(video_id):
                     try:
                         fetched = t.fetch()
-                        return _snippets_to_text(fetched) or None
+                        text = _snippets_to_text(fetched) or None
+                        return text, (None if text else "EmptyTranscript")
                     except Exception:
                         continue
             except Exception as e:
                 print(f"  [{video_id}] list-fallback failed: {type(e).__name__}", file=sys.stderr)
             print(f"  [{video_id}] no transcript in any language", file=sys.stderr)
-            return None
+            return None, "NoTranscriptInAnyLanguage"
         if i < attempts - 1:
             wait = 1.5 * (i + 1) + random.uniform(0, 1.5)
             print(
@@ -218,11 +225,12 @@ def fetch_transcript(video_id: str, attempts: int = 3) -> str | None:
                 file=sys.stderr,
             )
             time.sleep(wait)
+    reason = type(last_err).__name__ if last_err else "TransientFailure"
     print(
-        f"  [{video_id}] failed after {attempts}: {type(last_err).__name__}: {str(last_err)[:120]}",
+        f"  [{video_id}] failed after {attempts}: {reason}: {str(last_err)[:120]}",
         file=sys.stderr,
     )
-    return None
+    return None, reason
 
 
 def parse_duration_minutes(iso: str) -> int:
@@ -318,6 +326,39 @@ def update_header(html_text: str, total_videos: int) -> str:
     return new
 
 
+def notify_skipped_on_slack(skipped: list[tuple[dict | None, str, str]]) -> None:
+    """Post a skip report to Slack if SLACK_WEBHOOK_URL is set and we skipped
+    any videos. Used when the summarizer produces nothing — gives visibility
+    into what content is backlogged and why."""
+    webhook = os.environ.get("SLACK_WEBHOOK_URL", "").strip()
+    if not webhook or not skipped:
+        return
+    import json as _json
+    import urllib.request
+    lines = [
+        f"📹 YouTube summaries: 0 new summaries today, but {len(skipped)} "
+        f"video(s) couldn't be processed:"
+    ]
+    for meta, vid, reason in skipped[:10]:
+        title = (meta["title"][:70] if meta else f"(video {vid})")
+        channel = f" — {meta['channel']}" if meta else ""
+        url = f"https://youtu.be/{vid}"
+        lines.append(f"• <{url}|{title}>{channel} — `{reason}`")
+    if len(skipped) > 10:
+        lines.append(f"_…and {len(skipped) - 10} more._")
+    payload = _json.dumps({"text": "\n".join(lines)}).encode()
+    req = urllib.request.Request(
+        webhook,
+        data=payload,
+        headers={"Content-Type": "application/json"},
+    )
+    try:
+        urllib.request.urlopen(req, timeout=10).read()
+        print(f"Posted Slack skip report ({len(skipped)} videos)")
+    except Exception as e:
+        print(f"Slack webhook failed: {type(e).__name__}: {e}", file=sys.stderr)
+
+
 def main() -> int:
     html_text = HTML_PATH.read_text(encoding="utf-8")
     have = existing_video_ids(html_text)
@@ -341,6 +382,7 @@ def main() -> int:
 
     client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
     summarized: list[tuple[dict, str]] = []
+    skipped: list[tuple[dict | None, str, str]] = []  # (meta, video_id, reason)
 
     for vid in to_process:
         print(f"- {vid}")
@@ -348,24 +390,29 @@ def main() -> int:
             meta = fetch_video_metadata(yt, vid)
         except HttpError as e:
             print(f"  metadata error: {e}", file=sys.stderr)
+            skipped.append((None, vid, f"MetadataError:{type(e).__name__}"))
             continue
         if not meta:
             print("  no metadata; skipping")
+            skipped.append((None, vid, "NoMetadata"))
             continue
-        transcript = fetch_transcript(vid)
+        transcript, skip_reason = fetch_transcript(vid)
         if not transcript:
-            print("  no transcript available; skipping")
+            print(f"  no transcript available; skipping ({skip_reason})")
+            skipped.append((meta, vid, skip_reason or "Unknown"))
             continue
         try:
             body = generate_summary(client, meta, transcript)
         except anthropic.APIError as e:
             print(f"  anthropic error: {e}", file=sys.stderr)
+            skipped.append((meta, vid, f"AnthropicError:{type(e).__name__}"))
             continue
         summarized.append((meta, body))
         print(f"  summarized: {meta['title'][:60]}")
 
     if not summarized:
         print("Nothing to insert.")
+        notify_skipped_on_slack(skipped)
         return 0
 
     summarized.sort(key=lambda mb: mb[0]["published_iso"], reverse=True)

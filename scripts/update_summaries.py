@@ -4,6 +4,7 @@ prepend the rendered HTML blocks into index.html."""
 from __future__ import annotations
 
 import html
+import json
 import os
 import random
 import re
@@ -31,6 +32,19 @@ except ImportError:  # older library versions
 
 ROOT = Path(__file__).resolve().parent.parent
 HTML_PATH = ROOT / "index.html"
+SKIP_LIST_PATH = ROOT / "skipped.json"
+
+# Reasons that mean "this video will never be summarizable" — seen once, retire forever.
+# Kept narrow on purpose: transient/network/quota errors stay retryable.
+PERMANENT_FATAL_REASONS = frozenset({
+    "TranscriptsDisabled",
+    "AgeRestricted",
+    "VideoUnplayable",
+    "VideoUnavailable",
+    "NoTranscriptInAnyLanguage",
+    "EmptyTranscript",
+    "NoMetadata",
+})
 
 PLAYLIST_IDS = [p.strip() for p in os.environ["PLAYLIST_IDS"].split(",") if p.strip()]
 YT_KEY = os.environ["YOUTUBE_API_KEY"]
@@ -78,6 +92,23 @@ MAIN_OPEN_RE = re.compile(r"(<main>\s*)")
 
 def existing_video_ids(html_text: str) -> set[str]:
     return set(VIDEO_ID_RE.findall(html_text))
+
+
+def load_skip_list() -> dict[str, dict]:
+    if not SKIP_LIST_PATH.exists():
+        return {}
+    try:
+        return json.loads(SKIP_LIST_PATH.read_text(encoding="utf-8"))
+    except Exception as e:
+        print(f"warning: skipped.json unreadable ({e}); starting empty", file=sys.stderr)
+        return {}
+
+
+def save_skip_list(skip_list: dict[str, dict]) -> None:
+    SKIP_LIST_PATH.write_text(
+        json.dumps(skip_list, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
+    )
 
 
 def fetch_playlist_items(yt, playlist_id: str) -> list[str]:
@@ -333,7 +364,6 @@ def notify_skipped_on_slack(skipped: list[tuple[dict | None, str, str]]) -> None
     webhook = os.environ.get("SLACK_WEBHOOK_URL", "").strip()
     if not webhook or not skipped:
         return
-    import json as _json
     import urllib.request
     lines = [
         f"📹 YouTube summaries: 0 new summaries today, but {len(skipped)} "
@@ -346,7 +376,7 @@ def notify_skipped_on_slack(skipped: list[tuple[dict | None, str, str]]) -> None
         lines.append(f"• <{url}|{title}>{channel} — `{reason}`")
     if len(skipped) > 10:
         lines.append(f"_…and {len(skipped) - 10} more._")
-    payload = _json.dumps({"text": "\n".join(lines)}).encode()
+    payload = json.dumps({"text": "\n".join(lines)}).encode()
     req = urllib.request.Request(
         webhook,
         data=payload,
@@ -364,6 +394,10 @@ def main() -> int:
     have = existing_video_ids(html_text)
     print(f"Already summarized: {len(have)} videos")
 
+    skip_list = load_skip_list()
+    initial_skip_count = len(skip_list)
+    print(f"Permanent skip list: {initial_skip_count} videos")
+
     yt = build("youtube", "v3", developerKey=YT_KEY, cache_discovery=False)
     print(f"Fetching {len(PLAYLIST_IDS)} playlists:")
     playlist_ids = fetch_all_playlists(yt)
@@ -374,11 +408,13 @@ def main() -> int:
 
     # Preserve playlist order; newest-first assumed, but we process in playlist
     # order so the final prepend keeps the most-recent-first convention.
-    to_process = [v for v in playlist_ids if v not in have]
+    to_process = [v for v in playlist_ids if v not in have and v not in skip_list]
     print(f"New to summarize: {len(to_process)}")
 
     if not to_process:
         return 0
+
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
     summarized: list[tuple[dict, str]] = []
@@ -395,11 +431,25 @@ def main() -> int:
         if not meta:
             print("  no metadata; skipping")
             skipped.append((None, vid, "NoMetadata"))
+            skip_list[vid] = {
+                "reason": "NoMetadata",
+                "title": None,
+                "channel": None,
+                "first_seen": today,
+            }
             continue
         transcript, skip_reason = fetch_transcript(vid)
         if not transcript:
-            print(f"  no transcript available; skipping ({skip_reason})")
-            skipped.append((meta, vid, skip_reason or "Unknown"))
+            reason = skip_reason or "Unknown"
+            print(f"  no transcript available; skipping ({reason})")
+            skipped.append((meta, vid, reason))
+            if reason in PERMANENT_FATAL_REASONS:
+                skip_list[vid] = {
+                    "reason": reason,
+                    "title": meta["title"],
+                    "channel": meta["channel"],
+                    "first_seen": today,
+                }
             continue
         try:
             body = generate_summary(client, meta, transcript)
@@ -409,6 +459,11 @@ def main() -> int:
             continue
         summarized.append((meta, body))
         print(f"  summarized: {meta['title'][:60]}")
+
+    new_skips = len(skip_list) - initial_skip_count
+    if new_skips > 0:
+        save_skip_list(skip_list)
+        print(f"Added {new_skips} videos to permanent skip list ({len(skip_list)} total)")
 
     if not summarized:
         print("Nothing to insert.")

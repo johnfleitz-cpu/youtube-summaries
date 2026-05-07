@@ -33,7 +33,7 @@ jobs:
           WEBSHARE_USERNAME: ${{ secrets.WEBSHARE_USERNAME }}
           WEBSHARE_PASSWORD: ${{ secrets.WEBSHARE_PASSWORD }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-          PLAYLIST_IDS: PL_pfXMewWD95UQoDoyK8ktHzamHUVeHoM,PL_pfXMewWD97y6pXix7t4snRuLqo8fUOs
+          PLAYLIST_IDS: PL_pfXMewWD95UQoDoyK8ktHzamHUVeHoM,PL_pfXMewWD97y6pXix7t4snRuLqo8fUOs,PL_pfXMewWD95WdYFi6luUvZJIzGeigGCC
         run: python scripts/update_summaries.py
 
       - name: Commit and push if changed

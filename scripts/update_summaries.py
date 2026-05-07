@@ -31,8 +31,18 @@ except ImportError:  # older library versions
 
 ROOT = Path(__file__).resolve().parent.parent
 HTML_PATH = ROOT / "index.html"
+FEEDS_DIR = ROOT / "summaries" / "by-playlist"
 
 PLAYLIST_IDS = [p.strip() for p in os.environ["PLAYLIST_IDS"].split(",") if p.strip()]
+
+# Optional mapping from playlist ID → short name. Named playlists also get a
+# per-playlist markdown feed file written. Format: "PL_xxx:name1,PL_yyy:name2".
+PLAYLIST_NAMES: dict[str, str] = {}
+for _entry in os.environ.get("PLAYLIST_NAMES", "").split(","):
+    if ":" in _entry:
+        _pid, _name = _entry.split(":", 1)
+        PLAYLIST_NAMES[_pid.strip()] = _name.strip()
+
 YT_KEY = os.environ["YOUTUBE_API_KEY"]
 ANTHROPIC_KEY = os.environ["ANTHROPIC_API_KEY"]
 
@@ -104,9 +114,11 @@ def fetch_playlist_items(yt, playlist_id: str) -> list[str]:
     return ids
 
 
-def fetch_all_playlists(yt) -> list[str]:
+def fetch_all_playlists(yt) -> tuple[list[str], dict[str, str]]:
+    """Returns (deduped video IDs, mapping video_id → first playlist it appeared in)."""
     seen: set[str] = set()
     combined: list[str] = []
+    sources: dict[str, str] = {}
     for pid in PLAYLIST_IDS:
         try:
             ids = fetch_playlist_items(yt, pid)
@@ -118,7 +130,8 @@ def fetch_all_playlists(yt) -> list[str]:
             if v not in seen:
                 seen.add(v)
                 combined.append(v)
-    return combined
+                sources[v] = pid
+    return combined, sources
 
 
 def fetch_video_metadata(yt, video_id: str) -> dict | None:
@@ -314,6 +327,65 @@ def insert_blocks(html_text: str, blocks: list[str]) -> str:
     return html_text[: m.end()] + joined + html_text[m.end():]
 
 
+def html_body_to_markdown(html_body: str) -> str:
+    """Convert the HTML summary body (bullets + memorable-quote blockquote) to
+    plain markdown so the per-playlist feed file is human-readable and easy
+    for downstream tools to parse."""
+    md = html_body
+    # <p>* <strong>X</strong> — Y</p>  →  * **X** — Y
+    md = re.sub(
+        r'<p>\*\s*<strong>(.+?)</strong>\s*[—-]\s*(.+?)</p>',
+        r'* **\1** — \2',
+        md,
+        flags=re.DOTALL,
+    )
+    # <blockquote><strong>Memorable quote:</strong> "X"</blockquote>
+    md = re.sub(
+        r'<blockquote><strong>Memorable quote:</strong>\s*"(.+?)"</blockquote>',
+        r'> **Memorable quote**: "\1"',
+        md,
+        flags=re.DOTALL,
+    )
+    # Strip any remaining tags
+    md = re.sub(r'<[^>]+>', '', md)
+    return md.strip()
+
+
+def append_to_feed(feed_name: str, meta: dict, body: str) -> None:
+    """Append a video summary entry to the named playlist's markdown feed."""
+    feed_path = FEEDS_DIR / f"{feed_name}.md"
+    feed_path.parent.mkdir(parents=True, exist_ok=True)
+
+    iso_date, _pretty = format_pub_date(meta["published_iso"])
+    summarized_on = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    md_body = html_body_to_markdown(body)
+
+    entry = (
+        f"\n## {summarized_on} — {meta['title']}\n\n"
+        f"**Channel**: {meta['channel']}  \n"
+        f"**Video ID**: `{meta['id']}`  \n"
+        f"**URL**: https://youtu.be/{meta['id']}  \n"
+        f"**Published**: {iso_date}\n\n"
+        f"{md_body}\n\n"
+        f"---\n"
+    )
+
+    if not feed_path.exists():
+        feed_path.write_text(
+            f"# {feed_name} — playlist summary feed\n\n"
+            f"Auto-populated by the youtube-summaries pipeline. Each `## YYYY-MM-DD — Title` "
+            f"section is one video summary, ordered by date the pipeline processed it "
+            f"(newest at the bottom; append-only).\n"
+            f"{entry}",
+            encoding="utf-8",
+        )
+        print(f"  feed: created {feed_path.name}")
+    else:
+        with feed_path.open("a", encoding="utf-8") as f:
+            f.write(entry)
+        print(f"  feed: appended to {feed_path.name}")
+
+
 def update_header(html_text: str, total_videos: int) -> str:
     now = datetime.now(timezone.utc).astimezone()
     stamp = f"{now.strftime('%B')} {now.day}, {now.strftime('%Y at %I:%M %p')}"
@@ -366,8 +438,10 @@ def main() -> int:
 
     yt = build("youtube", "v3", developerKey=YT_KEY, cache_discovery=False)
     print(f"Fetching {len(PLAYLIST_IDS)} playlists:")
-    playlist_ids = fetch_all_playlists(yt)
+    playlist_ids, video_sources = fetch_all_playlists(yt)
     print(f"Playlist total (deduped): {len(playlist_ids)} videos")
+    if PLAYLIST_NAMES:
+        print(f"Named playlists for per-feed output: {PLAYLIST_NAMES}")
     if not playlist_ids:
         print("No playlist items fetched — aborting.", file=sys.stderr)
         return 1
@@ -421,6 +495,16 @@ def main() -> int:
     html_text = update_header(html_text, len(have) + len(new_blocks))
     HTML_PATH.write_text(html_text, encoding="utf-8")
     print(f"Inserted {len(new_blocks)} new blocks")
+
+    # Per-playlist feed files: append summaries for any video whose source
+    # playlist has a configured short name in PLAYLIST_NAMES.
+    if PLAYLIST_NAMES:
+        for meta, body in summarized:
+            source_pid = video_sources.get(meta["id"])
+            feed_name = PLAYLIST_NAMES.get(source_pid) if source_pid else None
+            if feed_name:
+                append_to_feed(feed_name, meta, body)
+
     return 0
 
 

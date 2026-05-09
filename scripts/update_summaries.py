@@ -4,6 +4,7 @@ prepend the rendered HTML blocks into index.html."""
 from __future__ import annotations
 
 import html
+import json
 import os
 import random
 import re
@@ -31,6 +32,19 @@ except ImportError:  # older library versions
 
 ROOT = Path(__file__).resolve().parent.parent
 HTML_PATH = ROOT / "index.html"
+SKIP_LIST_PATH = ROOT / "skipped.json"
+
+# Reasons that mean "this video will never be summarizable" — seen once, retire forever.
+# Kept narrow on purpose: transient/network/quota errors stay retryable.
+PERMANENT_FATAL_REASONS = frozenset({
+    "TranscriptsDisabled",
+    "AgeRestricted",
+    "VideoUnplayable",
+    "VideoUnavailable",
+    "NoTranscriptInAnyLanguage",
+    "EmptyTranscript",
+    "NoMetadata",
+})
 
 PLAYLIST_IDS = [p.strip() for p in os.environ["PLAYLIST_IDS"].split(",") if p.strip()]
 YT_KEY = os.environ["YOUTUBE_API_KEY"]
@@ -78,6 +92,23 @@ MAIN_OPEN_RE = re.compile(r"(<main>\s*)")
 
 def existing_video_ids(html_text: str) -> set[str]:
     return set(VIDEO_ID_RE.findall(html_text))
+
+
+def load_skip_list() -> dict[str, dict]:
+    if not SKIP_LIST_PATH.exists():
+        return {}
+    try:
+        return json.loads(SKIP_LIST_PATH.read_text(encoding="utf-8"))
+    except Exception as e:
+        print(f"warning: skipped.json unreadable ({e}); starting empty", file=sys.stderr)
+        return {}
+
+
+def save_skip_list(skip_list: dict[str, dict]) -> None:
+    SKIP_LIST_PATH.write_text(
+        json.dumps(skip_list, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
+    )
 
 
 def fetch_playlist_items(yt, playlist_id: str) -> list[str]:
@@ -326,27 +357,44 @@ def update_header(html_text: str, total_videos: int) -> str:
     return new
 
 
-def notify_skipped_on_slack(skipped: list[tuple[dict | None, str, str]]) -> None:
-    """Post a skip report to Slack if SLACK_WEBHOOK_URL is set and we skipped
-    any videos. Used when the summarizer produces nothing — gives visibility
-    into what content is backlogged and why."""
+def post_daily_summary(
+    summarized: list[tuple[dict, str]],
+    skipped: list[tuple[dict | None, str, str]],
+    archive_total: int,
+) -> None:
+    """Post one Slack message per run so silence on the channel always means
+    the workflow itself didn't run, not that nothing happened."""
     webhook = os.environ.get("SLACK_WEBHOOK_URL", "").strip()
-    if not webhook or not skipped:
+    if not webhook:
         return
-    import json as _json
     import urllib.request
-    lines = [
-        f"📹 YouTube summaries: 0 new summaries today, but {len(skipped)} "
-        f"video(s) couldn't be processed:"
-    ]
-    for meta, vid, reason in skipped[:10]:
-        title = (meta["title"][:70] if meta else f"(video {vid})")
-        channel = f" — {meta['channel']}" if meta else ""
-        url = f"https://youtu.be/{vid}"
-        lines.append(f"• <{url}|{title}>{channel} — `{reason}`")
-    if len(skipped) > 10:
-        lines.append(f"_…and {len(skipped) - 10} more._")
-    payload = _json.dumps({"text": "\n".join(lines)}).encode()
+
+    if summarized:
+        lines = [f"✅ YouTube summaries: {len(summarized)} new today"]
+        for meta, _ in summarized[:10]:
+            url = f"https://youtu.be/{meta['id']}"
+            title = meta["title"][:80]
+            lines.append(f"• <{url}|{title}> — {meta['channel']}")
+        if len(summarized) > 10:
+            lines.append(f"_…and {len(summarized) - 10} more._")
+        if skipped:
+            lines.append(f"_(Also skipped {len(skipped)} — see Actions log for details.)_")
+    elif skipped:
+        lines = [
+            f"📹 YouTube summaries: 0 new today, but {len(skipped)} "
+            f"video(s) couldn't be processed:"
+        ]
+        for meta, vid, reason in skipped[:10]:
+            title = (meta["title"][:70] if meta else f"(video {vid})")
+            channel = f" — {meta['channel']}" if meta else ""
+            url = f"https://youtu.be/{vid}"
+            lines.append(f"• <{url}|{title}>{channel} — `{reason}`")
+        if len(skipped) > 10:
+            lines.append(f"_…and {len(skipped) - 10} more._")
+    else:
+        lines = [f"😴 YouTube summaries: nothing new today ({archive_total} total in archive)"]
+
+    payload = json.dumps({"text": "\n".join(lines)}).encode()
     req = urllib.request.Request(
         webhook,
         data=payload,
@@ -354,7 +402,7 @@ def notify_skipped_on_slack(skipped: list[tuple[dict | None, str, str]]) -> None
     )
     try:
         urllib.request.urlopen(req, timeout=10).read()
-        print(f"Posted Slack skip report ({len(skipped)} videos)")
+        print(f"Posted Slack daily summary (summarized={len(summarized)}, skipped={len(skipped)})")
     except Exception as e:
         print(f"Slack webhook failed: {type(e).__name__}: {e}", file=sys.stderr)
 
@@ -363,6 +411,10 @@ def main() -> int:
     html_text = HTML_PATH.read_text(encoding="utf-8")
     have = existing_video_ids(html_text)
     print(f"Already summarized: {len(have)} videos")
+
+    skip_list = load_skip_list()
+    initial_skip_count = len(skip_list)
+    print(f"Permanent skip list: {initial_skip_count} videos")
 
     yt = build("youtube", "v3", developerKey=YT_KEY, cache_discovery=False)
     print(f"Fetching {len(PLAYLIST_IDS)} playlists:")
@@ -374,15 +426,15 @@ def main() -> int:
 
     # Preserve playlist order; newest-first assumed, but we process in playlist
     # order so the final prepend keeps the most-recent-first convention.
-    to_process = [v for v in playlist_ids if v not in have]
+    to_process = [v for v in playlist_ids if v not in have and v not in skip_list]
     print(f"New to summarize: {len(to_process)}")
 
-    if not to_process:
-        return 0
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
-    client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
     summarized: list[tuple[dict, str]] = []
     skipped: list[tuple[dict | None, str, str]] = []  # (meta, video_id, reason)
+
+    client = anthropic.Anthropic(api_key=ANTHROPIC_KEY) if to_process else None
 
     for vid in to_process:
         print(f"- {vid}")
@@ -395,11 +447,25 @@ def main() -> int:
         if not meta:
             print("  no metadata; skipping")
             skipped.append((None, vid, "NoMetadata"))
+            skip_list[vid] = {
+                "reason": "NoMetadata",
+                "title": None,
+                "channel": None,
+                "first_seen": today,
+            }
             continue
         transcript, skip_reason = fetch_transcript(vid)
         if not transcript:
-            print(f"  no transcript available; skipping ({skip_reason})")
-            skipped.append((meta, vid, skip_reason or "Unknown"))
+            reason = skip_reason or "Unknown"
+            print(f"  no transcript available; skipping ({reason})")
+            skipped.append((meta, vid, reason))
+            if reason in PERMANENT_FATAL_REASONS:
+                skip_list[vid] = {
+                    "reason": reason,
+                    "title": meta["title"],
+                    "channel": meta["channel"],
+                    "first_seen": today,
+                }
             continue
         try:
             body = generate_summary(client, meta, transcript)
@@ -410,17 +476,22 @@ def main() -> int:
         summarized.append((meta, body))
         print(f"  summarized: {meta['title'][:60]}")
 
-    if not summarized:
-        print("Nothing to insert.")
-        notify_skipped_on_slack(skipped)
-        return 0
+    new_skips = len(skip_list) - initial_skip_count
+    if new_skips > 0:
+        save_skip_list(skip_list)
+        print(f"Added {new_skips} videos to permanent skip list ({len(skip_list)} total)")
 
-    summarized.sort(key=lambda mb: mb[0]["published_iso"], reverse=True)
-    new_blocks = [render_block(m, b) for m, b in summarized]
-    html_text = insert_blocks(html_text, new_blocks)
-    html_text = update_header(html_text, len(have) + len(new_blocks))
-    HTML_PATH.write_text(html_text, encoding="utf-8")
-    print(f"Inserted {len(new_blocks)} new blocks")
+    if summarized:
+        summarized.sort(key=lambda mb: mb[0]["published_iso"], reverse=True)
+        new_blocks = [render_block(m, b) for m, b in summarized]
+        html_text = insert_blocks(html_text, new_blocks)
+        html_text = update_header(html_text, len(have) + len(new_blocks))
+        HTML_PATH.write_text(html_text, encoding="utf-8")
+        print(f"Inserted {len(new_blocks)} new blocks")
+    else:
+        print("Nothing to insert.")
+
+    post_daily_summary(summarized, skipped, len(have) + len(summarized))
     return 0
 
 

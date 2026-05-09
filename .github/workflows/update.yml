@@ -33,16 +33,16 @@ jobs:
           WEBSHARE_USERNAME: ${{ secrets.WEBSHARE_USERNAME }}
           WEBSHARE_PASSWORD: ${{ secrets.WEBSHARE_PASSWORD }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-          PLAYLIST_IDS: PL_pfXMewWD95UQoDoyK8ktHzamHUVeHoM,PL_pfXMewWD97y6pXix7t4snRuLqo8fUOs
+          PLAYLIST_IDS: PL_pfXMewWD95UQoDoyK8ktHzamHUVeHoM,PL_pfXMewWD97y6pXix7t4snRuLqo8fUOs,PL_pfXMewWD95WdYFi6luUvZJIzGeigGCC
           PLAYLIST_NAMES: PL_pfXMewWD95WdYFi6luUvZJIzGeigGCC:el-salvador
         run: python scripts/update_summaries.py
 
       - name: Commit and push if changed
         run: |
-          if [ -n "$(git status --porcelain index.html summaries/)" ]; then
+          if [ -n "$(git status --porcelain index.html skipped.json summaries/)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add index.html summaries/
+            git add index.html skipped.json summaries/
             git commit -m "Update summaries $(date -u +%Y-%m-%d)"
             git push
           else

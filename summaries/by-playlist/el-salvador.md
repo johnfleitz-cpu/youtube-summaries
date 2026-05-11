@@ -659,3 +659,24 @@ Memorable quote: "I swear to God it's the best 10 seconds of your life" — refe
 > **Memorable quote**: "Conforme fue pasando el tiempo más personas europeas pues se fueron asentando aquí en Berlín muchas de estas no tenían riquezas sino que estas personas sabían de caficultura."
 
 ---
+
+## 2026-05-11 — Wrongfully Imprisoned in El Salvador for a Year! Here's What He Wants You to Know About Bukele
+
+**Channel**: Live From Bitcoin Beach - El Salvador  
+**Video ID**: `IFcUKd2H5AI`  
+**URL**: https://youtu.be/IFcUKd2H5AI  
+**Published**: 2026-05-01
+
+* **El Salvador's gang violence created generational trauma across decades** — The country endured roughly 20–30 years of gang violence on top of a 20-year civil war, leaving most Salvadorans over 40 with lives marked by repeated trauma and instability. This historical context shapes how citizens view security measures today, making comparisons to Western countries fundamentally incomplete.
+
+* **Crime has dropped to near-zero under Bukele's policies** — Gang violence has effectively disappeared; people now leave cars unlocked and walk unsecured beaches. The transformation is so complete that even petty crime is minimal, representing a radical shift from the country's recent violent past.
+
+* **Police profiling of tattooed individuals led to wrongful imprisonment** — A 21-year-old half-Salvadoran, half-Mexican man was jailed for a year at age 18 purely based on his extensive tattoos, with an incentive structure rewarding police for arrests. He was destined for the extreme C Corp prison before a lawyer client helped secure his release.
+
+* **Victims of injustice still support Bukele's security approach** — Despite his wrongful year-long imprisonment, the tattooed man maintains a neutral view of Bukele, saying the country's freedom from gang violence justifies the cost, even though he now crosses streets to avoid police and keeps his eyes down.
+
+* **Emergency decrees allow arrests without substantial evidence** — The government retains powers to detain people without credible proof, creating a climate where even those who experienced injustice feel compelled to comply and avoid authorities out of fear.
+
+> **Memorable quote**: "Yes, my experience was terrible. Yes, I was unlawfully imprisoned. However, if you look at El Salvador, you look at what the country is doing, you look at the freedom we have due to that violence towards the gang members, it's something that I'm willing to swallow because I know that overall the country's on a great trajectory."
+
+---

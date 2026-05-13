@@ -680,3 +680,28 @@ Memorable quote: "I swear to God it's the best 10 seconds of your life" — refe
 > **Memorable quote**: "Yes, my experience was terrible. Yes, I was unlawfully imprisoned. However, if you look at El Salvador, you look at what the country is doing, you look at the freedom we have due to that violence towards the gang members, it's something that I'm willing to swallow because I know that overall the country's on a great trajectory."
 
 ---
+
+## 2026-05-13 — El Salvador's Economy: The next Singapore or just another emerging market?
+
+**Channel**: The Wandering Investor  
+**Video ID**: `gq7KmZgeAvs`  
+**URL**: https://youtu.be/gq7KmZgeAvs  
+**Published**: 2025-08-09
+
+* **El Salvador's growth rate masks uneven geographic development** — Despite headlines about transformation, El Salvador's 3–4% annual growth lags Nicaragua and remains concentrated in San Salvador and coastal areas rather than distributed nationally, a typical early-stage growth pattern that doesn't yet show up in total GDP figures but is visible on the ground in infrastructure and foreign investment.
+
+* **Remittances from US immigration dwarf crypto and FDI as economic driver** — At 24% of GDP, remittances from Salvadorans working in the US represent the single most important variable for the economy, now accelerating as Biden-era migrants gain skills, earn higher wages, and increasingly invest back in real estate rather than merely sustaining families.
+
+* **Dramatic tourism surge is filling hotel capacity faster than supply can respond** — Tourism volume jumped over 80% between 2019 and 2024, with spending per visitor even higher as crypto enthusiasts, surfers, and higher-income tourists exploit El Salvador's generous six-month visa-on-arrival policy, creating acute room shortages during peak season.
+
+* **Failed megaprojects like Bitcoin City generate free publicity without financial risk** — Initiatives such as volcano bonds and Bitcoin City fail to materialize but cost nothing while delivering hundreds of millions in global media coverage that attracts genuine investment and tourism, functioning as cost-free marketing rather than wasted capital.
+
+* **IMF deal is reasonable and protects infrastructure despite political framing** — The IMF imposed wage freezes, healthcare spending limits, and budget transparency requirements—all justified by unsustainable populist spending—but explicitly protected infrastructure and education funding because capacity building remains critical to development.
+
+* **Bitcoin legal tender removal changes nothing practically on the ground** — Despite political drama, eliminating Bitcoin as legal tender only prevents tax payments in crypto and removes the government wallet; private crypto transactions for real estate, vehicles, and goods continue unaffected, meaning the policy shift was politically smart negotiation rather than economic restriction.
+
+* **Private Turkish investment in seaports signals real logistics transformation underway** — A $1.6 billion commitment to modernize El Salvador's two main seaports represents far more fundamental economic importance than delayed megaprojects, yet receives minimal publicity because hard infrastructure investments lack the theatrical appeal of Bitcoin cities or new airports.
+
+> **Memorable quote**: "The number one variable for the Salvadoran economy, it's not crypto. It's not foreign direct investment. It's not any of this. It is US immigration policy and the US labor market."
+
+---

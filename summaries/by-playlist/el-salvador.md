@@ -705,3 +705,24 @@ Memorable quote: "I swear to God it's the best 10 seconds of your life" — refe
 > **Memorable quote**: "The number one variable for the Salvadoran economy, it's not crypto. It's not foreign direct investment. It's not any of this. It is US immigration policy and the US labor market."
 
 ---
+
+## 2026-05-24 — Why El Salvador Loves Their "Bitcoin Dictator" | Joe Nakamoto
+
+**Channel**: Live From Bitcoin Beach - El Salvador  
+**Video ID**: `TEN0iUcUZBI`  
+**URL**: https://youtu.be/TEN0iUcUZBI  
+**Published**: 2026-05-22
+
+* **Bukele maintains popularity despite authoritarian tactics** — The speaker reports near-universal approval for El Salvador's president across all demographics, even among incarcerated individuals, because citizens view his crackdowns on gangs as necessary for survival after decades of violence that devastated the country's social fabric and generational trust.
+
+* **Prison conditions are deliberately publicized to deter gang resurgence** — The government releases Hollywood-style videos showing harsh prisoner treatment not primarily as propaganda theater, but to convince the population that gang violence will never return, justifying the continuation of emergency measures that most Salvadorans support despite their authoritarian appearance.
+
+* **The state of emergency persists because public fear remains real** — Citizens worry that ending martial law too early will allow remaining gang members to reorganize and restart violence, making early release politically impossible even though lifting the emergency would improve El Salvador's international image as a functioning democracy.
+
+* **Bukele's model is spreading across Latin America rapidly** — Leaders in Costa Rica, Colombia, and Chile are openly adopting Bukele-style strongman approaches, suggesting a broader regional shift toward authoritarian solutions to gang violence that Western observers dismiss as unethical but populations embrace as survival necessity.
+
+* **Outside judgment ignores context of generational trauma** — Western critics focus on human rights violations without acknowledging that 50-year-old Salvadorans lived through civil war and gang warfare, creating legitimate psychological barriers to trusting institutional safety that only visible state brutality can temporarily overcome.
+
+> **Memorable quote**: "He's democratically elected. Yes, he's incredibly popular. Yes, I cannot find people that don't like Bukele or even like when they're locked up for 1 year, they're still neutral on Bukele."
+
+---

@@ -726,3 +726,28 @@ Memorable quote: "I swear to God it's the best 10 seconds of your life" — refe
 > **Memorable quote**: "He's democratically elected. Yes, he's incredibly popular. Yes, I cannot find people that don't like Bukele or even like when they're locked up for 1 year, they're still neutral on Bukele."
 
 ---
+
+## 2026-06-02 — 6 Months Living in El Salvador | Our Honest Experience with Cost, Safety & Daily Life
+
+**Channel**: Charity Hagenaars  
+**Video ID**: `R3z4f2DKNw0`  
+**URL**: https://youtu.be/R3z4f2DKNw0  
+**Published**: 2025-02-23
+
+* **El Salvador's people are exceptionally kind and helpful to newcomers** — Charity describes consistent generosity from neighbors, teachers, doctors, and shop owners who offer assistance without being asked, translating for her at school meetings and checking on her family's needs, which she contrasts favorably with her experience in Canada where she never felt the same level of genuine hospitality.
+
+* **Monthly living costs for a family of five remain under $2,400** — After removing one-time expenses like a $600 furniture deposit and a $100 shelving unit, her January-February costs totaled approximately $2,363, including $562 in groceries, $635 for busing fees, and $175 for school uniforms, with substantial savings from fresh local produce and affordable protein from deli counters.
+
+* **Public school safety concerns have evaporated with gang suppression** — With criminal organizations eliminated only three years ago (March 2022), Charity no longer fears for her children's safety at school, describing El Salvador as "safer than Canada," and credits the government's transformation of previously gang-controlled infrastructure including schools, hospitals, and downtown San Salvador.
+
+* **Fresh food accessibility and quality far exceeds Canadian imports** — Charity finds tomatoes, cucumbers, pineapples, and papayas picked fresh daily from local markets, avoiding the convenience foods and frozen meals she relied on in Canada where groceries travel long distances before ripening, enabling healthier eating for her family.
+
+* **Traffic law enforcement has intensified with zero-tolerance policies and substantial fines** — New strict enforcement includes zero blood-alcohol limits (versus Canada's 0.08), $150 parking tickets, and crackdowns on dangerous driving habits like lane-splitting motorcycles, which Charity supports as necessary to reduce the frequent serious accidents she's witnessed on local highways.
+
+* **Teaching English to local children while improving her own Spanish simultaneously** — Charity volunteers at the school and discovers she must translate instructions into Spanish for students to understand, forcing her to learn grammar and vocabulary in real time as children correct her pronunciation, making her language acquisition practical rather than classroom-based.
+
+* **Government investment in infrastructure is transforming the post-gang-suppression economy** — New hospitals, renamed health clinics, school renovations, rebuilt downtown San Salvador, and highway expansion represent rapid development that couldn't happen during decades of gang control, signaling prosperity where there was previously only fear and stagnation.
+
+> **Memorable quote**: "I can really see that the prosperity in this country is growing because everything is different now the gangs are gone and the government's helping to build up Prosperity where in Canada Prosperity is dying."
+
+---

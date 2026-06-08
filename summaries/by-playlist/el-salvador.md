@@ -751,3 +751,26 @@ Memorable quote: "I swear to God it's the best 10 seconds of your life" — refe
 > **Memorable quote**: "I can really see that the prosperity in this country is growing because everything is different now the gangs are gone and the government's helping to build up Prosperity where in Canada Prosperity is dying."
 
 ---
+
+## 2026-06-08 — 'We govern for Salvadorans’: El Salvadoran VP Felix Ulloa addresses critics of the Bukele Model
+
+**Channel**: The Newsmakers  
+**Video ID**: `Z3DAESMoGb8`  
+**URL**: https://youtu.be/Z3DAESMoGb8  
+**Published**: 2026-05-28
+
+* **Gang violence required extraordinary state powers to defeat** — Vice President Ulloa argues that El Salvador's 4-year state of emergency was justified under international humanitarian law because gangs controlled most national territory and the murder rate was the world's highest; the government invoked the right of states to declare war to defend their population when attacked.
+
+* **Constitutional suspensions affected only two guarantees, not public liberties** — Ulloa claims the state of exception narrowly targeted specific constitutional protections while preserving freedom of the press and other civil liberties, and that 95% of Salvadorans support extending emergency measures monthly because they experience tangible security improvements.
+
+* **Accepting collateral detention of innocents is the price of security** — Ulloa acknowledges that roughly 8,000 people have been released after proving they were wrongly detained, representing less than a 10% margin of error, but frames imprisoning 91,000 people as acceptable because it has effectively liberated 99% of the population from gang violence.
+
+* **Bitcoin adoption positions El Salvador as a forward-thinking pioneer** — Despite the cryptocurrency's volatility and limited real-world adoption, Ulloa argues that Bukele correctly anticipated a global shift toward digital currency and away from fiat money; he compares El Salvador's vision to Singapore's success, suggesting size matters less than leadership and vision.
+
+* **Bitcoin City development has begun despite delayed public progress** — The government is selling volcano bonds to fund the project and has started construction on a nearby airport; Ulloa indicates the timeline remains undefined but emphasizes that land acquisition and legal procedures are underway to enable eventual development powered by geothermal energy.
+
+* **Critics abroad ignore the lived experience of ordinary Salvadorans** — Ulloa dismisses international human rights organizations and major news outlets as disconnected from El Salvador's reality, arguing that people living abroad who never experienced gang violence are the primary critics while the domestic population consistently demonstrates satisfaction with security improvements.
+
+> **Memorable quote**: "We govern for Salvadorian people, not for NGOs that exist in Washington or in London, or not for the outlet that criticize us like the New York Times, El País de Spain, Le Monde, BBC."
+
+---

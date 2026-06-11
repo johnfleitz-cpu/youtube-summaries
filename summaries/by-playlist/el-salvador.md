@@ -774,3 +774,28 @@ Memorable quote: "I swear to God it's the best 10 seconds of your life" — refe
 > **Memorable quote**: "We govern for Salvadorian people, not for NGOs that exist in Washington or in London, or not for the outlet that criticize us like the New York Times, El País de Spain, Le Monde, BBC."
 
 ---
+
+## 2026-06-11 — El Salvador Has Changed.
+
+**Channel**: Places  
+**Video ID**: `s-ed-O80Vtg`  
+**URL**: https://youtu.be/s-ed-O80Vtg  
+**Published**: 2026-01-12
+
+* **El Salvador's violence stemmed from decades of civil war and US-deported gang members** — The 1979–1992 civil war killed 80,000 people and traumatized a generation, with 38,000 child soldiers comprising 80% of government forces. After the war, the 1996 US immigration reform deported Salvadorans with criminal records back to a destabilized country, where gangs like MS-13 and Barrio 18—founded in Los Angeles—exploited a population desensitized to violence and flooded with firearms.
+
+* **Murder rates made El Salvador the world's most dangerous country by far** — In 1995, El Salvador recorded 138 murders per 100,000 residents—higher than Tuva, Russia's deadliest region (137), and vastly exceeding Brazil's worst year (31), the United States in 1991 (10), and Japan's peak (6). Even 2013, the safest year before President Bukele, saw 41 murders per 100,000—still incomparably deadlier than nearly every other nation.
+
+* **Bukele's seven-phase territorial control plan systematically dismantled gang finances and operations** — Starting in 2019, the plan targeted extortion—which comprised 80% of gang income and 3% of GDP—by stationing 2,500 police and 4,000 military in extortion zones, cutting prison communication, and later deploying 20,000 troops to extract criminals house by house. By 2024, annual murders plummeted from 3,300 in 2018 to 114, with one alleged year (May 2022–May 2023) recording zero homicides.
+
+* **The crackdown suspended constitutional rights, including detention without charges for 15 days** — After gangs killed 87 people in March 2022, the government suspended freedom of association and legal counsel, permitted warrantless surveillance, reduced criminal responsibility age from 16 to 12, and extended these emergency powers at least 43 times through September 2024. Bukele removed the attorney general and constitutional court judges, then won reelection in 2024 with 80% support despite the ban on consecutive terms.
+
+* **Bukele consolidated power by eliminating judicial independence and targeting political opponents' party structures** — He removed all five constitutional court magistrates in 2021 and replaced them with loyalists who approved his reelection despite explicit constitutional prohibition. The two major opposition parties, whose last five presidents faced embezzlement charges, found themselves powerless when Bukele arrived at the assembly with 40 soldiers and thousands of supporters to force military funding without legislative approval.
+
+* **80,000+ detainees await trial in an overwhelmed justice system prone to mass convictions** — Little capacity exists to process arrested individuals; mass trials of up to 900 detainees have occurred, with public defenders given less than 5 minutes per 500 cases—condemned by the UN as risking wrongful convictions. The judiciary remains largely unstrengthened despite the arrest surge, creating a potential powder keg of legal injustice.
+
+* **Safety gains are real but long-term sustainability depends on economic reform and democratic recovery** — While El Salvador is now safer than most Latin American nations, poverty remains high (22% below the national line), unemployment sits around 7%, and real estate prices exclude young Salvadorans from homeownership. Bukele's six-phase economic plan includes food distribution, tech parks, and port modernization, but nepotism and limited high-skill jobs persist, mirroring pre-collapse Venezuela's trajectory of security without prosperity or freedom.
+
+> **Memorable quote**: "It's easy to talk about the rights of criminals when they're not throwing Molotov cocktails at your house."
+
+---

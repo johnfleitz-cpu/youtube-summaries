@@ -799,3 +799,28 @@ Memorable quote: "I swear to God it's the best 10 seconds of your life" — refe
 > **Memorable quote**: "It's easy to talk about the rights of criminals when they're not throwing Molotov cocktails at your house."
 
 ---
+
+## 2026-06-13 — 17 THINGS We Wish We Knew Before Visiting EL SALVADOR 🇸🇻
+
+**Channel**: Abby and Gaz  
+**Video ID**: `UqbXGHHoTrw`  
+**URL**: https://youtu.be/UqbXGHHoTrw  
+**Published**: 2025-05-14
+
+* **A 12-day itinerary balances major destinations without rushing** — Start with 3–4 days in Santa Anna (including the volcano hike), 3 days in Atiquizaya for waterfalls and food festivals, 4 days in El Tunco for beaches and surfing, then 2 days climbing and camping on Volcán de Conchagua. Skip chicken buses in favor of Uber, which costs around $25 for an hour-and-a-half journey between locations.
+
+* **Safety exceeds expectations due to military presence throughout tourist areas** — El Salvador's crackdown has made it safer than expected; military and police patrol constantly in towns like El Tunco and Santa Anna. The heavy security presence can feel unusual but creates a genuinely secure environment for travelers who follow standard precautions.
+
+* **Pupusas dominate the food scene and become tiresome quickly** — The national dish (bean and cheese, jalapeño and cheese, or chicken and cheese) is available everywhere for cheap but becomes repetitive after two weeks. Supplement with fresh grilled meats, rice, and vegetables offered at street stalls and local restaurants.
+
+* **Budget backpackers can survive on $30 daily; mid-range travelers spend $45** — Dorm beds, public transport, and street food enable ultra-budget travel; private rooms and mixed dining push costs to mid-range. "Bougie backpackers" who use Uber and eat at tourist restaurants spend around $50 daily.
+
+* **El Tunco is dramatically more expensive than the rest of the country** — Private rooms cost $60–$80 per night compared to cheaper rates elsewhere, and food prices are significantly inflated. Budget an extra cushion if you plan to spend more than a few days at this main beach destination.
+
+* **Hostels lack English-speaking staff outside El Tunco, requiring Spanish or translation apps** — Many hostels in emerging tourist areas have minimal English capabilities, making Google Translate essential for basic communication about facilities. This pushes travelers to practice Spanish but creates minor friction during check-in and logistics.
+
+* **Visit during dry season (December to April) to guarantee zero rain** — The travelers experienced perfect weather with not a single raindrop despite rainy season occurring at other times. Timing your visit correctly ensures ideal conditions for volcano hikes, waterfalls, and beach activities.
+
+> **Memorable quote**: "It's been the friendliest country so far. People want to see tourists in their country. They're happy and excited for you to be there."
+
+---

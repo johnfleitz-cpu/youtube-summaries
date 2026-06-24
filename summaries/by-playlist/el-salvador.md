@@ -824,3 +824,122 @@ Memorable quote: "I swear to God it's the best 10 seconds of your life" — refe
 > **Memorable quote**: "It's been the friendliest country so far. People want to see tourists in their country. They're happy and excited for you to be there."
 
 ---
+
+## 2026-06-24 — Don't Buy Land in El Salvador Until You Watch This!
+
+**Channel**: Live in El Salvador  
+**Video ID**: `vhGDOyLeBW8`  
+**URL**: https://youtu.be/vhGDOyLeBW8  
+**Published**: 2026-03-31
+
+* **El Salvador land has tripled in price within 24 months** — Kevin arrived in late 2023 and witnessed properties appreciate 300% by 2026, with prices still climbing monthly. Land that cost $1–2 per square foot three years ago now ranges $10–20 per square foot, yet remains vastly undervalued compared to U.S. markets like New York where Kevin previously worked as a real estate broker.
+
+* **The dollar's declining value makes El Salvador properties an inflation hedge** — Gold has risen from $3,500 to $5,000 per ounce in one year, representing a 25–30% loss in dollar purchasing power that most people don't realize because the dollar is no longer pegged to gold. Property prices will continue rising not due to scarcity alone but because the currency itself is weakening, making now the optimal time to buy.
+
+* **Tech companies and infrastructure improvements are driving rapid development** — Google, new crypto exchanges, and startups are establishing operations in El Salvador because of low carrying costs, affordable payroll, favorable crypto laws, and business-friendly regulations for entrepreneurs. This influx mirrors the trajectory that transformed Singapore and Dubai into global financial hubs.
+
+* **Salvadoran land scarcity will make current lots extremely rare within years** — El Salvador is a small, densely populated coastal nation where developable land is finite. Kevin predicts that purchasing land now at current prices will become impossible for future generations as supply dwindles and demand from international investors and returnees intensifies.
+
+* **You must leave prosperity to escape the system, not wait for collapse** — Kevin left New York with $30–40 million in active real estate listings because he recognized that people only escape entrenched systems when they're financially comfortable enough to do so. Waiting until conditions deteriorate means lacking the capital to relocate or invest elsewhere.
+
+* **Salvadorans have a cultural duty to invest and build community wealth together** — Unlike Chinese and Jewish diaspora communities that pool capital and mentor youth through collaborative enterprise, Salvadorans tend to compete individually and struggle with machismo and envy. Kevin argues that establishing leaders as examples and working collectively will rebuild the country faster and create intergenerational wealth.
+
+> **Memorable quote**: "The only way to secure your future is buy your own land. Buy your land. Buy your land."
+
+---
+
+## 2026-06-24 — What 17 Months in El Salvador Taught Us (Banks, Schools & Real Life)
+
+**Channel**: Charity Hagenaars  
+**Video ID**: `4kT96LIpaMw`  
+**URL**: https://youtu.be/4kT96LIpaMw  
+**Published**: 2026-02-01
+
+* **Bank card renewal requires hours of paperwork and waiting** — While Canada mails replacement cards automatically, El Salvador requires in-person visits with multiple forms, signature verification, machine processing, and manager approval. Charity's single card renewal consumed an hour and a half, including 15 minutes pre-screening, 25 minutes waiting, extensive form-filling, and a final 10-minute delay for supervisor sign-off.
+
+* **School enrollment involves three separate trips and detailed bureaucratic forms** — Unlike Canada's automatic enrollment, El Salvador requires attending year-end meetings, collecting complete student files, submitting enrollment forms ($1 per child), completing detailed intake forms asking about water sources and house materials, waiting in lines during limited 8-11 a.m. windows, and paying $15 per family for food programs.
+
+* **Feline panleukopenia is spreading rapidly and highly contagious** — One of Charity's cats died suddenly from this disease while en route to the vet, going from completely healthy to dead within hours. The veterinarian sprayed down Charity and her son with disinfectant, and the family had to bleach all floors, wash all clothes, and shower because the virus spreads so easily. Cats require yearly boosters despite initial vaccination in Canada.
+
+* **Cat emergency surgery cost $530, far less than comparable Canadian care** — Charity's orange cat needed emergency surgery with 50-75 stitches after a severe injury, costing $530 total including a $25 follow-up checkup. She contrasts this with a previous Canadian experience where a vet quoted $11,000 to amputate a healthy leg and immediately asked about pet insurance.
+
+* **Paint shopping requires two separate trips and extended wait times** — Salvadoran hardware stores like Vidri require customers to pay before paint is mixed, forcing a second trip to the counter. Charity and the principal spent nearly 2 hours total (40 minutes in initial line, 20 minutes for mixing, another 30 minutes for a second color at a separate outlet), versus a single quick transaction in Canada.
+
+* **Monthly family expenses average $780 for groceries plus $850 rent** — For a family of five, typical costs include $119 electricity (without AC use), $62 bottled water, $32.98 internet, $51 cell phone service, and $246 dining out. Christmas and pet emergencies pushed December to $3,767, but normal months run closer to $2,200-2,500 total.
+
+* **School supply box system consolidates five separate pickup trips into one delivery** — Instead of making multiple trips for shoes, textbooks, computers, and uniforms as in prior years, students will receive all items in one large box during the first two weeks of school, eliminating the need for repeated visits and signed receipt documentation.
+
+> **Memorable quote**: "The lesson to learn here is patience, patience and more patience."
+
+---
+
+## 2026-06-24 — COMO EN REALIDAD SE PUEDE SACAR UNA CUENTA DE BANCO EN EL SALVADOR 
+
+**Channel**: HERBERT VÁS  
+**Video ID**: `Pdlb4zKFZSc`  
+**URL**: https://youtu.be/Pdlb4zKFZSc  
+**Published**: 2026-01-27
+
+* **Don't believe everything YouTubers claim about opening bank accounts** — Herbert responds to a popular video claiming it's nearly impossible to open a bank account in El Salvador for people living abroad, arguing the creator presented incomplete information and generated unnecessary panic among diaspora members trying to access Salvadoran banking services.
+
+* **Banco Agrícola changed ownership and policies dramatically** — The bank was previously owned by Colombian interests but is now majority U.S.-owned, which means its paperwork, account opening procedures, and remittance processes have all changed significantly from what they were before, making older information unreliable.
+
+* **Opening an account requires minimal documentation, not extensive bureaucracy** — If you present yourself with only your DUI (national ID) and show no indication you live abroad, banks typically ask for just that plus around 35 pesos; the complications may arise when applicants voluntarily mention living in the United States or speak with an American accent that alerts bank staff.
+
+* **Multiple banks offer easier alternatives than Banco Agrícola** — Banco de Vivienda, Banco Cuscatlán, Proamérica, and other institutions have different policies and simpler requirements, so Salvadorans abroad have numerous options rather than being limited to a single problematic bank.
+
+* **Banks actively want your money and make it easy to inquire** — Financial institutions benefit enormously from deposits—they lend out customer funds and profit—so they've established multiple contact channels including WhatsApp, Facebook, and phone lines specifically to provide account-opening requirements without obstacles.
+
+* **U.S. authorities only investigate suspicious large deposits, not routine accounts** — The American government monitors banking for money laundering and sudden large transfers, but opening a normal savings account or making regular deposits as a Salvadoran citizen living abroad raises no red flags or legal issues.
+
+> **Memorable quote**: "No hay mucha traba para sacar una cuenta en acá en El Salvador más si usted es salvadoreño, no es como que yo me vaya mojado a Estados Unidos y quiera sacar una cuenta allá en Estados Unidos, pues no voy a poder."
+
+---
+
+## 2026-06-24 — How to Make Money and Start a Business in El Salvador 🇸🇻 | Our Expat Journey & Residency Tips
+
+**Channel**: Charity Hagenaars  
+**Video ID**: `3gqe5SErtXM`  
+**URL**: https://youtu.be/3gqe5SErtXM  
+**Published**: 2025-09-13
+
+* **Choosing business residency over pension-only visas enables wealth building** — Rather than relying solely on pension income to qualify for residency, Charity and GJ established a registered business called Las Gracias in November 2023, allowing them to create a legacy for their children while staying in El Salvador legally, even though they didn't move until August 2024.
+
+* **Registering a business requires monthly tax filings even before operations begin** — Once a business is officially registered with El Salvador's tax authority (hacienda), owners must file monthly tax returns and undergo annual audits, creating administrative overhead and costs before generating any revenue from the enterprise.
+
+* **Business registration requires listing all potential activities to avoid costly restarts** — Charity listed approximately 30 possible business activities upfront—including tourism, transportation, animal hospital services, and hospitality—because changing focus later requires restarting the entire registration process, paying new fees, and waiting up to three months.
+
+* **Tourism and transportation became the immediate revenue opportunity while waiting for Canadian property sale** — Unable to purchase land for their planned resort until their Ontario motel property sells, Charity and GJ started with a van-based tour and airport pickup service as the first executable item from their broader business plan, employing their friend Stan as the primary driver.
+
+* **Housing in El Salvador costs substantially more than expat perception suggests** — Properties in Charity's community range from $175,000 to $205,000, explaining why they rent rather than buy while their Canadian property remains unsold and tied up in pandemic-delayed renovations.
+
+* **New electronic invoicing requirements apply to all businesses regardless of size** — El Salvador mandates electronic receipts for every transaction, including separate invoices for meals and tips, requiring new business systems and compliance infrastructure even for startups like the tour service.
+
+> **Memorable quote**: "We were told to list absolutely everything that we thought we might be interested in doing as if we had picked one thing and then changed our minds later on, we have to start that whole business paperwork process over again."
+
+---
+
+## 2026-06-24 — How to Get El Salvador Passport & Citizenship (Full Guide) 🇸🇻
+
+**Channel**: My Latin Life  
+**Video ID**: `y7ox3sP_uHk`  
+**URL**: https://youtu.be/y7ox3sP_uHk  
+**Published**: 2024-12-01
+
+* **El Salvador allows dual citizenship with no renunciation required** — Unlike many countries, becoming a Salvadoran citizen doesn't force you to abandon your current nationality, making it an attractive option for people seeking to expand their passport portfolio without legal complications.
+
+* **Salvadoran passport grants visa-free access to 136 countries** — The passport covers the EU, UK, and much of Latin America, filling potential gaps in existing travel documents and providing meaningful global mobility benefits alongside citizenship.
+
+* **Residency requirement for naturalization drops to one year under specific conditions** — While the standard path requires five consecutive years of legal residency, marriage to a Salvadoran citizen, Latin American nationality, or Central American citizenship all reduce this to just one year, significantly accelerating the citizenship timeline.
+
+* **Citizenship by investment costs $1 million but includes citizenship fasttracking** — El Salvador offers a paid pathway where a million-dollar investment (often accepted in crypto) bypasses normal residency requirements and accelerates citizenship processing, though industry observers consider the price steep.
+
+* **Citizenship by descent is viable if you can prove family lineage** — Even if your birth wasn't registered as a Salvadoran citizen, you can claim citizenship as a child or grandchild of Salvadoran citizens by providing birth certificates showing the family connection at a consulate or registry office.
+
+* **Birth tourism in El Salvador provides a citizenship pathway for children** — Having a baby in El Salvador grants the child automatic citizenship, while parents can then pursue residency and work toward their own citizenship through the standard naturalization process.
+
+* **Professional legal assistance is recommended despite relatively low lawyer costs** — Complex cases like proving descent or navigating naturalization benefit from expert guidance, and immigration lawyers in El Salvador are affordable enough to justify hiring for smooth processing and avoiding mistakes.
+
+> **Memorable quote**: "If you think you're eligible already like such as by descent via your parents absolute no-brainer absolute absolute no-brainer."
+
+---

@@ -943,3 +943,26 @@ Memorable quote: "I swear to God it's the best 10 seconds of your life" — refe
 > **Memorable quote**: "If you think you're eligible already like such as by descent via your parents absolute no-brainer absolute absolute no-brainer."
 
 ---
+
+## 2026-06-28 — He Sold Everything, Moved to El Salvador, and Found Something Bigger Than Bitcoin | Chris Meinhart
+
+**Channel**: Live From Bitcoin Beach - El Salvador  
+**Video ID**: `hebVJOu1myU`  
+**URL**: https://youtu.be/hebVJOu1myU  
+**Published**: 2026-06-27
+
+* **Bitcoin brought Chris to El Salvador, but the people made him stay** — After 10 years in the Canary Islands working in tourism, Chris moved to El Salvador in December 2024 following a chance connection on X about the country's Bitcoin adoption. He planned a one-month visit but immediately fell in love with the culture and kindness of Salvadorans, deciding within weeks to relocate permanently, sell his possessions, and build a new life there.
+
+* **He met his wife shortly after arriving and they married within a year** — Chris met his Salvadoran wife when he first visited El Salvador on vacation. After returning to the Canary Islands to settle affairs, they maintained contact, and when he moved back permanently, their relationship quickly deepened. They married about 1.5 years into his time in El Salvador and together purchased land in the mountains near Huayúa where they built a small house within three months.
+
+* **Bitcoin education is now a government priority with nationwide rollout planned** — Chris works with Bitcoin Beach teaching the Bitcoin Diploma 2.0, a curriculum developed by WeSpark in partnership with El Salvador's Ministry of Education and National Bitcoin Office. The program began as a pilot in six to seven public schools one month ago, focusing first on teacher training, with the goal of nationwide implementation next year—making El Salvador potentially unique in formally teaching Bitcoin to high school students.
+
+* **The Bitcoin Diploma 2.0 starts with mindset and habits, not technology** — The curriculum's first chapter teaches habits and mindset change rather than diving into Bitcoin or financial concepts. Chris emphasizes that personal transformation must precede understanding tools like Bitcoin, reflecting a holistic approach to financial education rooted in behavioral foundations.
+
+* **Chris's relationship with God deepened dramatically after moving to El Salvador** — Though raised Christian in Germany, Chris experienced a spiritual awakening in El Salvador through conversations with locals about faith and family. He now reads the Bible daily, practices prayer, and credits his deeper relationship with Jesus to the spiritual closeness he witnessed in Salvadoran culture and society, viewing this as more important than Bitcoin itself.
+
+* **He views Bitcoin as a tool, not an end goal, subordinate to faith and family** — Chris explicitly rejects treating Bitcoin as a religion or ultimate purpose, instead placing God first, then family and friends, with Bitcoin serving as a practical instrument for fairness and development. He worries that Bitcoiners can become spiritually empty when they elevate the technology above deeper human and spiritual priorities.
+
+> **Memorable quote**: "Bitcoin brought me here. Well, we can say the marketing department made a great job. But I came here for Bitcoin and I stayed for the people, for the culture and also for the closeness I feel to God."
+
+---

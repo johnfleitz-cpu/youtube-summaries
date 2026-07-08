@@ -61,7 +61,7 @@ YT_KEY = os.environ["YOUTUBE_API_KEY"]
 ANTHROPIC_KEY = os.environ["ANTHROPIC_API_KEY"]
 
 MODEL = "claude-haiku-4-5"
-MAX_TRANSCRIPT_CHARS = 180_000
+MAX_TRANSCRIPT_CHARS = 100_000  # ~25k tokens; stays under Haiku input window (long transcripts were causing 400 BadRequestError skips)
 
 SYSTEM_PROMPT = """You produce HTML summaries of YouTube videos in a very specific format.
 

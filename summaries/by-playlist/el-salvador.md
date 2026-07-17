@@ -966,3 +966,174 @@ Memorable quote: "I swear to God it's the best 10 seconds of your life" — refe
 > **Memorable quote**: "Bitcoin brought me here. Well, we can say the marketing department made a great job. But I came here for Bitcoin and I stayed for the people, for the culture and also for the closeness I feel to God."
 
 ---
+
+## 2026-07-17 — El Salvador jailed 2% of its men. Here's what happened.
+
+**Channel**: Elephants in Rooms - Ken LaCorte  
+**Video ID**: `dertCE8EBqI`  
+**URL**: https://youtu.be/dertCE8EBqI  
+**Published**: 2026-07-13
+
+* **El Salvador transformed from world's deadliest nation to safest in Americas** — Murder rates plummeted from 100+ homicides per 100,000 people in 2015 to 1.3 in 2025, with 150 consecutive days without a single murder as of mid-2026. The country went from losing over a million citizens to emigration to becoming a tourist destination praised for safety.
+
+* **Gangs originated in Los Angeles, not El Salvador** — MS-13 and Barrio 18 were founded in LA by Salvadoran refugees fleeing the civil war, then exported back when the US deported over 90,000 gang members between 1997 and 2015. With a weak local government, these imported gangs carved the country into territories and controlled nearly all towns through extortion and murder.
+
+* **Bukele arrested over 1% of the entire population in mass crackdown** — Since March 2022, security forces arrested over 80,000 people based on broad criteria like gang tattoos, anonymous tips, or living in gang neighborhoods. Courts processed defendants in bulk video hearings with secret judges, and new laws allowed collective trials of up to 900 defendants simultaneously.
+
+* **Salvadorans overwhelmingly support Bukele despite authoritarian methods** — His approval rating reached 94% by 2026, with most citizens crediting him for making their country safe for the first time in generations. Only one in five report personal fear of criticizing the government, though international human rights groups call his detention practices crimes against humanity.
+
+* **Bukele has systematically dismantled constitutional checks on presidential power** — He purged the supreme court and attorney general, rewrote judicial rulings to allow reelection despite a constitutional ban, amended the constitution to erase term limits entirely, and passed a foreign agents law to squeeze independent media. These changes were done legally with public support rather than through coups or tanks.
+
+* **Even Bukele acknowledged his crackdown swept up innocent people** — He admitted in November 2024 that 8,000 people detained were later determined innocent and released, meaning approximately 10% of El Salvador's population has a loved one in prison. Multiple allegations of corruption plague his inner circle, including pandemic aid theft and inflated contract schemes.
+
+* **El Salvador's long-term stability depends on institutional strength after Bukele leaves** — While he successfully eliminated gang control by sidestepping institutions, the country faces an ironic challenge: its future depends on rebuilding those same institutions he weakened. History shows that popular strongmen can either save countries or destroy them, and without strong institutions, El Salvador remains vulnerable to future abuse of power.
+
+> **Memorable quote**: "You can't build a country while gangs run it. And Salvadorans, they now have a chance to do just that. The real question is what they build on top of that safety."
+
+---
+
+## 2026-07-17 — They Sold Everything to Move to El Salvador 🇸🇻 | Now They're Living Their Dream 🤩
+
+**Channel**: Jeni Ari - La Gringa Salvadoreña  
+**Video ID**: `LmrAx-uwoSM`  
+**URL**: https://youtu.be/LmrAx-uwoSM  
+**Published**: 2026-07-12
+
+* **Canadian family sold everything to escape perceived government overreach** — Sara and William left Canada in December 2023 after growing concerned about what they viewed as authoritarian policies controlling personal decisions and bodily autonomy. They were inspired by YouTube content showcasing El Salvador's freedoms and decided to make the dramatic move with their family.
+
+* **Strong Christian values and family-centered culture drew them to El Salvador** — The country's emphasis on "Dios, Union, Libertad" (God, Unity, Freedom) aligned perfectly with their priorities. They were fleeing what they saw as the rapid decline of traditional family values and Christian morality in Western societies, which they found particularly concerning as parents.
+
+* **Community and tranquility in El Salvador exceeded expectations from 43 years away** — William, who left as a child, was surprised by the ease-going nature of daily life, strong sense of community, and how neighbors genuinely interact and support one another—a stark contrast to the isolation he experienced in Canada.
+
+* **Immigration bureaucracy is far more complex than newcomers anticipate** — Despite William's Salvadoran citizenship, Sara faced unexpected roadblocks: temporary residency prevented spousal employment, requiring a separate work visa instead. Everything requires physical presence and repeated office visits; digitization remains minimal, and requirements vary depending which government employee you consult.
+
+* **Professional guidance prevents costly mistakes during relocation** — The couple wasted time and money navigating school registration, healthcare, vehicle purchase, and property acquisition alone. They now recommend preparing documents (apostilles) months in advance, learning conversational Spanish, and hiring local consultants to avoid eighteen-month delays and unexpected fees.
+
+* **Language barrier makes independent navigation nearly impossible** — Without fluent Spanish, newcomers cannot effectively handle immigration, legal, or bureaucratic processes. Sara emphasizes that immersion alone won't work; structured instruction and local support are critical to avoid confusion over slang, regional variations, and inefficient procedures.
+
+* **Teaching English in El Salvador offers meaningful impact on future leaders** — Sara now teaches primary school students who will become politicians and business owners, plus adults seeking English skills online. She describes the opportunity as a dream realized—combining her passion with tangible influence on the country's emerging generation.
+
+> **Memorable quote**: "I'd rather have my family living and with me living the principles cuz I mean none of us know how long we're going to live. But while we are here, I want them living in a place where they can have joy and have freedom."
+
+---
+
+## 2026-07-17 — Why Bitcoiners Who Rage Quit El Salvador After the IMF Deal Will Regret It
+
+**Channel**: Live From Bitcoin Beach - El Salvador  
+**Video ID**: `aUhDcy7-1b4`  
+**URL**: https://youtu.be/aUhDcy7-1b4  
+**Published**: 2026-07-11
+
+* **El Salvador's reverse brain drain attracts global Bitcoin builders, not just tourists** — Unlike Costa Rica's yoga-and-surfing expat wave, El Salvador is drawing the world's best entrepreneurial minds in high concentration specifically because of Bitcoin's freedom ethos. This isn't temporary tourism; it's permanent settlement by people with capital and skills who want to build sovereign infrastructure.
+
+* **The IMF deal was a necessary geopolitical dance, not a betrayal of Bitcoin** — Those who rage-quit after the IMF agreement misunderstand statecraft. The government's job is "staying alive"—maintaining stability so Bitcoin adoption can continue organically. Understanding geopolitics shows that El Salvador is thriving; Bitcoiners can control what they can and ignore what they can't.
+
+* **Hyper-bitcoinization is happening through daily commerce, not government mandates** — Three years into the Bitcoin farmers market, vendors naturally accept Bitcoin because they see untapped market opportunity. The movement spreads peer-to-peer through communities: businesses accepting Bitcoin to reach foreign capital, Salvadorans learning free-market mechanics for the first time, and real goods flowing for hard money.
+
+* **Property priced in Bitcoin has a floor that protects against bear markets** — Club Coal and beachfront land have appreciated faster than Bitcoin itself over 3.5 years. As long as Bitcoin survives, this land will never decline in value; it functions as a Bitcoin-backed asset class with tangible ROI—coconuts, mangoes, community, and peace of mind alongside financial returns.
+
+* **Food sovereignty mirrors financial sovereignty, attracting health-conscious Bitcoiners** — People acquiring Bitcoin wealth naturally evolve into health optimization. The farmers market solves real problems: direct vendor relationships, grass-fed beef, raw milk, and escape from industrial food supply chains. This crossover between monetary and nutritional freedom is accelerating as foreigners and locals recognize they've been controlled through diet for 150 years.
+
+* **Expanding beyond the beach creates network effects across El Salvador's interior** — Most Salvadorans and inland Bitcoiners never reach the coastal markets. A traveling farmers market to San Salvador, Santa Ana, and mountain towns like Tamanique invites entire regions into Bitcoin adoption through lived experience rather than top-down policy.
+
+> **Memorable quote**: "Bitcoin is money. It's not digital gold. I want to see as much trade happening, permissionless trade happening as possible."
+
+---
+
+## 2026-07-17 — 25 Insane Facts About El Salvador (You've Never Heard)
+
+**Channel**: Borderline Wonders  
+**Video ID**: `_IoILYrK8SU`  
+**URL**: https://youtu.be/_IoILYrK8SU  
+**Published**: 2025-11-10
+
+* **The 431 CE Ilopango eruption was one of history's most violent** — El Salvador's Ilopango volcano ejected 82 cubic kilometers of magma and dusted 2 million square kilometers of Central America in ash and debris, occurring a century before the infamous 536 CE eruption that dimmed the sun across the Northern Hemisphere.
+
+* **San Salvador is built on an active volcano's flank** — The capital sits in the Valley of the Hammocks between two volcanic giants, with El Boquerón's summit towering 1.2 kilometers above downtown, making it one of the world's few capitals positioned directly on an active volcano despite repeated earthquakes and the persistent seismic hazard.
+
+* **Izalco volcano erupted continuously for nearly two centuries** — Born in 1770 on Santa Ana's flank, Izalco kept erupting from the American Revolution through the Space Age until 1966, earning the nickname "Lighthouse of the Pacific" because sailors used its night glow to navigate across the ocean.
+
+* **Salvadoran volcanic coffee competes globally despite the country's tiny size** — Coffee grown on mineral-rich volcanic soils from Santa Ana, Izalco, and Cerro Verde develops complexity with chocolate sweetness, citrus, and floral notes, and regularly wins Cup of Excellence awards despite El Salvador being only about the size of Massachusetts.
+
+* **El Salvador has four times more ocean than land** — While covering just 21,041 square kilometers, its exclusive economic zone extends to roughly 90,962 square kilometers—larger than Panama, Costa Rica, or mainland Portugal—making the Pacific a vast pantry and workplace rather than merely a border.
+
+* **The Lempa River holds together 77 percent of the population** — This 422-kilometer river's basin covers half of Switzerland's area and supplies water, food, and nearly 40 percent of the country's electricity through hydroelectric dams, making it El Salvador's true backbone despite being shorter than Mississippi's main tributaries.
+
+* **El Salvador protects 40 to 45 percent of Eastern Pacific hawksbill turtle nesting grounds** — Jiquilisco Bay hosts one of the largest hawksbill nesting populations in the region, where endangered turtles nest and feed in mangrove estuaries shared with local fishermen under conservation guard, placing a responsibility far larger than the nation's borders.
+
+> **Memorable quote**: "Out of nearly 200 countries on Earth, it's the only one named directly after Jesus Christ by title."
+
+---
+
+## 2026-07-17 — Hermosa CUIDAD DE BERLÍN USULUTÁN / en el oriente de EL SALVADOR 🇸🇻 😱
+
+**Channel**: El Salvador y Centro América Es Bello   
+**Video ID**: `Rz_9H2t14Kw`  
+**URL**: https://youtu.be/Rz_9H2t14Kw  
+**Published**: 2025-10-13
+
+* **Firestar Hotel offers family-friendly accommodations with 11 modern rooms** — The hotel in Berlin, Usulután features a mix of simple and family rooms with amenities including air conditioning, hot water showers, smart TVs, WiFi, and adjustable lighting. Rooms range from single occupancy to family units sleeping up to six people, with parking for five to six vehicles and a reception area decorated with murals celebrating local coffee culture and rural life.
+
+* **Multiple payment options include international transfers and Bitcoin** — Guests can book and pay via Booking.com, Expedia, credit card transfers, international bank transfers for visitors from the United States, and cryptocurrency, with a QR code system available at reception for convenient transactions.
+
+* **Hotel amenities cater to comfort and convenience with modern touches** — Each room includes a closet, hot water, individually adjustable lighting intensity, Smart TV, WiFi connectivity, and charging ports beside beds. Some rooms feature mini-refrigerators available upon request during reservation, and the hotel maintains a beverage area with coffee and drinks for guests.
+
+* **Location provides access to natural attractions and mountain scenery** — Berlin sits surrounded by mountains, coffee plantations, waterfalls, rivers, viewpoints, and views of Cerro Verde volcano, making it an ideal base for exploring the eastern region's natural beauty while staying in a comfortable hotel setting.
+
+* **The town hosts weekend entrepreneurial activity with local food vendors** — Evening and weekend atmospheres feature pupuserías (traditional street food stands), small businesses, and local entrepreneurs creating a vibrant community environment, with a church and park areas providing additional gathering spaces for visitors and residents.
+
+* **Hotel staff provides personalized service and flexible room options** — Recently added single rooms to accommodate high demand, with staff like María José offering tours and information. The hotel accepts special requests such as minibar placement and maintains consistent quality across all room types with modern color schemes and furnishings.
+
+> **Memorable quote**: "If you come here to Berlin, to this beautiful city surrounded by mountains, volcano, coffee, good culture, hardworking and fighting people, come here. You no longer have an excuse to say, 'I have nowhere to stay because Firestar Hotel awaits you with open arms.'"
+
+---
+
+## 2026-07-17 — Charlie Stevens - The Natural Investor Now Calls Berlin, El Salvador Home. Bitcoin Brings The Talent
+
+**Channel**: Live From Bitcoin Beach - El Salvador  
+**Video ID**: `UnifgbuyHdA`  
+**URL**: https://youtu.be/UnifgbuyHdA  
+**Published**: 2023-10-29
+
+* **Working in traditional finance exposed him to the contradictions of central banking** — While auditing large insurance companies at PwC in 2018-19, Charlie noticed they held massive amounts of zero-coupon bonds that made no logical sense. He realized central banks incentivized holding certain assets through reserve requirements, which seemed fundamentally broken—and started mentioning Bitcoin to the partners, who were curious but never incentivized to act.
+
+* **Bitcoin adoption accelerates when locals see tourism and economic opportunity** — In Berlin, El Salvador, the circular economy took off not primarily from bitcoin ideology but from locals observing neighboring Aría attracting tourists. Once vendors saw foot traffic and realized they could accept Bitcoin from visiting bitcoiners, they became motivated—over 50 vendors now accept it for everything from haircuts to groceries to rent.
+
+* **Gang violence in El Salvador created hidden economies that are now opening up** — For decades, businesses operated invisibly—no signs, gated locations, no marketing—to avoid gang attention. Now that security has improved, entrepreneurs are discovering how to market openly for the first time, and nightlife has returned. This suppressed entrepreneurial energy is poised for rapid growth.
+
+* **Salvadorans fleeing to the US for survival now see opportunity in returning** — Remittances flow back to El Salvador from Salvadorans working abroad; returnees and diaspora investing in land and businesses represent massive capital inflows. The shift from "I must escape to survive" to "My town is worth investing in" reflects a fundamental change in economic psychology.
+
+* **Bitcoin fixes the financial incentive structure that drives family separation and poverty** — The gang problem, emigration crisis, and economic collapse all stem from a monetary system that forces people into debt slavery. A sound money standard (Bitcoin) removes the incentive to cheat and steal, allowing families to stay together and people to work toward their actual purpose rather than mere survival.
+
+* **The natural investor concept links spiritual purpose with financial sovereignty** — Charlie argues that money and spirituality have been artificially separated; ancient Hindu texts encouraged wealth-building as a base for peace. Bitcoin enables people to invest in alignment with their nature and values rather than being forced into perverse incentive structures that corrupt behavior.
+
+* **Berlin attracts driven foreigners precisely because it's in early stages of development** — Unlike El Salvador's more mature Alante beach scene, Berlin still offers that honeymoon period where small decisions matter enormously. People show up with no firm plans, discover their role, and stay because they feel genuinely useful in building something from the ground up.
+
+> **Memorable quote**: "I'm trying to link the concept of money and the concept of spirituality or the concept of being at peace with yourself—it's an integrated part of you, not like your financial life and then your spiritual life."
+
+---
+
+## 2026-07-17 — Gerardo & Evelyn - Is Berlin, El Salvador the new Bitcoin City?
+
+**Channel**: Live From Bitcoin Beach - El Salvador  
+**Video ID**: `bpKw-SgMNhs`  
+**URL**: https://youtu.be/bpKw-SgMNhs  
+**Published**: 2023-10-22
+
+* **Berlin emerged from teaching Bitcoin classes across El Salvador** — Gerardo and Evelyn were traveling 1.5 to 2 hours each way from San Miguel to give Bitcoin education in towns like Berlin, working 12+ hour days. They realized Berlin had the right combination of tourism, openness to learning, and small-town community dynamics to become a focal point for Bitcoin adoption, inspired by the Bitcoin Beach model they read about.
+
+* **Locals initially distrusted Bitcoin due to bad Chivo wallet experiences** — Many Salvadorans associated Bitcoin exclusively with Chivo, experienced identity theft or fraud through it, and thought Nayib Bukele created Bitcoin itself. The team had to rebuild trust by first becoming customers in local businesses, then gradually introducing Bitcoin as an alternative payment method rather than pushing it aggressively.
+
+* **Community momentum shifted when businesses saw competitors gaining customers** — Early adoption required constant convincing, but once the first merchants started accepting Bitcoin and attracting tourists, other businesses organically approached the team asking how to participate. The team now uses peer pressure strategically: bringing 10–15 people to shops that refuse Bitcoin, causing them to lose visible customer traffic.
+
+* **A core team of 14–15 unpaid volunteers now drives the project forward** — Beyond business onboarding, the group organizes cleaning campaigns, painting initiatives, and social work to address Berlin's infrastructure issues. Foreign bitcoiners relocating to Berlin—including Charlie, Salva Nakamoto, and others—have integrated deeply with locals rather than forming separate expat enclaves, amplifying the project's credibility.
+
+* **Bitcoin liquidity remains the biggest operational challenge** — Berlin sits 2.5 hours from San Salvador, making it hard to inject fresh Bitcoin into the circular economy. The team encourages locals to spend Bitcoin rather than convert to fiat at the Chivo ATM, and relies on foreign bitcoiners moving there to provide consistent spending power that sustains merchant adoption.
+
+* **The Bitcoin Berlin Festival (October 28–29) aims to showcase thriving adoption to national and international audiences** — Organizers are arranging buses from San Salvador and Elante, hosting a Bitcoin meetup, bringing the farmers market to town, and coordinating with Adopting Bitcoin conference attendees. Nearly all local businesses now accept Bitcoin, positioning Berlin as a proof-of-concept for El Salvador's Bitcoin integration.
+
+* **Salvadorians must choose between passively watching history or actively building it** — Gerardo frames the moment as a national inflection point: El Salvador has a "great opportunity" to pioneer Bitcoin adoption, but it requires locals and newcomers alike to commit as protagonists, not spectators. The Berlin project models this choice on a manageable community scale.
+
+> **Memorable quote**: "We need to take a decision if we want to be like viewers of History if we want to be part of it if we want to be protagonist and I think the people in Berlin has understood that they need to be protagonist."
+
+---

@@ -1137,3 +1137,26 @@ Memorable quote: "I swear to God it's the best 10 seconds of your life" — refe
 > **Memorable quote**: "We need to take a decision if we want to be like viewers of History if we want to be part of it if we want to be protagonist and I think the people in Berlin has understood that they need to be protagonist."
 
 ---
+
+## 2026-07-20 — How El Salvador's Bitcoin Ecosystem Launched a Tech Company in 28 Countries | Edgar Borja
+
+**Channel**: Live From Bitcoin Beach - El Salvador  
+**Video ID**: `vyAs1Hhj1IM`  
+**URL**: https://youtu.be/vyAs1Hhj1IM  
+**Published**: 2026-07-18
+
+* **K1 machines now operate in 28 countries worldwide** — What started as a Bitcoin ATM project in El Salvador has expanded globally, with machines deployed across Latin America, Europe, Asia, and beyond, making Bitcoin accessible through the simplest possible interface.
+
+* **New software enables on-chain Bitcoin purchases with self-custody** — K1 machines can now facilitate on-chain transactions at the lowest possible fees, with the machine itself holding its own wallet rather than relying on third-party custody providers, representing a significant shift toward self-sovereignty in Bitcoin ATM design.
+
+* **Bill and coin acceptance expanded to support over 100 currencies** — Engineering challenges around bill sizes—from narrow US dollars to oversized Japanese yen—have been overcome, allowing machines to accept payment from nearly any country without regional limitations.
+
+* **Education-focused tools democratize Bitcoin understanding for non-technical audiences** — K1 developed "Learn Bitcoin with Crayons," a 40–60 minute workshop using paper and colored markers to teach cryptographic concepts like private keys and signatures tangibly, plus a board game called Merkle Root that teaches blockchain validation through color-matching gameplay.
+
+* **El Salvador's Bitcoin ecosystem directly enabled investor connections and company growth** — Both of Edgar's investors were met in El Salvador through the Bitcoin community; the brand association with El Salvador and Bitcoin adoption has become a significant competitive advantage at international conferences and investor meetings.
+
+* **Participation in X Founders accelerator transformed pitch strategy and investor perspective** — The month-long intensive program with eight startups and professional-grade filming taught Edgar how investors evaluate companies: they don't care about technical excitement but rather the clear seven-step pathway from a $2 million investment to $20 million returns.
+
+> **Memorable quote**: "If you fall in love with the problem you want to solve, and you work for it, and you breathe it in, and you understand how it hurts people, then you're just going to be empathetic to them and you'll be able to create something that helps people."
+
+---

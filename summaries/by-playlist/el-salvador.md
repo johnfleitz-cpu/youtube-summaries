@@ -1160,3 +1160,26 @@ Memorable quote: "I swear to God it's the best 10 seconds of your life" — refe
 > **Memorable quote**: "If you fall in love with the problem you want to solve, and you work for it, and you breathe it in, and you understand how it hurts people, then you're just going to be empathetic to them and you'll be able to create something that helps people."
 
 ---
+
+## 2026-07-29 — El Salvador's Bitcoin Experiment Just Reached a New Milestone & Nobody Is Talking About It
+
+**Channel**: Live From Bitcoin Beach - El Salvador  
+**Video ID**: `xqqw-3emeuA`  
+**URL**: https://youtu.be/xqqw-3emeuA  
+**Published**: 2026-07-25
+
+* **Bitcoin housing project nears completion with 122 families as first homeowners** — Newstory has spent years building simple but dignified homes in Elzante for families who previously lived in shacks or squatter settlements, costing $122 per home. These families will become homeowners for the first time, building generational wealth and changing mindsets across generations while providing basic amenities like indoor plumbing that reduce health risks.
+
+* **Custom payment tools make Bitcoin mortgages accessible to families with no email** — Developers created QR code scanning systems and WhatsApp notifications for families to pay mortgages in Bitcoin without understanding traditional digital banking. The first families already paying for two years serve as beta testers; a website dashboard lets families track payment status and helps Newstory identify those falling behind and connect them to job opportunities.
+
+* **El Salvador's banks actively discriminate against Bitcoin businesses despite legal status** — Companies with "Bitcoin" in their name face automatic blacklisting and lowest-priority treatment from banks, making basic operations like accepting credit card payments and paying payroll taxes extraordinarily difficult. The Stay at Bitcoin Beach vacation rental took months to set up payment processing while Blink accomplished Bitcoin integration in two weeks.
+
+* **Government must enable Bitcoin tax payments to formalize the economy** — Currently, businesses cannot pay payroll taxes or government fees with Bitcoin despite it being legal tender, forcing them into informal cash arrangements. Third-party intermediaries like in the US could allow Bitcoin payments for taxes without direct government integration, incentivizing formalization and increasing tax revenue.
+
+* **Bitcoin adoption spreading through tourism and professional networks, not ideology** — World Surf League competitors and international visitors organically ask about Bitcoin at businesses and accommodation; adoption is driven by practical benefits like avoiding remittance fees ($75 for $200 transfers in one documented case) and financial inclusion rather than ideological promotion.
+
+* **Homeownership creates civic engagement and safety for families previously facing displacement** — When families own rather than squat on land, they invest in community improvements, sleep securely knowing they won't be evicted, and participate in neighborhood development. The project includes space for small businesses, motorcycles, and home expansion so residents can generate additional income.
+
+> **Memorable quote**: "None of them own anything. So now they're going to be home owners. Yeah. And that's a change changing their their mindsets, changing their gener generation, right?"
+
+---

@@ -1183,3 +1183,239 @@ Memorable quote: "I swear to God it's the best 10 seconds of your life" — refe
 > **Memorable quote**: "None of them own anything. So now they're going to be home owners. Yeah. And that's a change changing their their mindsets, changing their gener generation, right?"
 
 ---
+
+## 2026-08-07 — I Lost $5,000 in El Salvador🇸🇻... Don't Make ‼️ the Same Mistake
+
+**Channel**: Jeni Ari - La Gringa Salvadoreña  
+**Video ID**: `RWYB5GMOxDc`  
+**URL**: https://youtu.be/RWYB5GMOxDc  
+**Published**: 2026-08-02
+
+* **AI-enhanced impersonation scams are increasingly effective and devastate even experienced Bitcoiners** — Jeni lost over $6,000 when a scammer impersonated a friend she'd interviewed, using AI to make the conversation convincing enough that her "service-focused heart" sent money to help what she thought was an emergency. This happens across all expertise levels and age groups, yet victims often stay silent out of shame, allowing the scam industry to operate largely unchecked.
+
+* **Urgency is the primary psychological weapon scammers deploy to bypass rational thinking** — When someone claims an immediate crisis requiring instant money transfer, that's a red flag; legitimate friends call or meet in person first rather than demanding quick action through messaging apps to prevent you from verifying their identity.
+
+* **Platform-switching mid-conversation signals an attempt to control the narrative and erase history** — Scammers move conversations from your primary messaging app (WhatsApp, Messenger) to unfamiliar platforms like Telegram to prevent you from referencing past conversations with the real contact and to keep you disoriented in a "fresh" chat where you lose context clues.
+
+* **Guaranteed financial returns in cryptocurrency are always fraudulent—nothing in finance is certain** — Whether promised as "1% daily returns" or a mining operation profit-share, any guarantee is a red flag because markets are inherently unpredictable and scammers use certainty language to exploit FOMO and bypass critical thinking.
+
+* **Oversharing personal details on social media provides scammers with the raw data needed for targeted impersonation** — Public posts reveal your name, location, relationships, and interests, allowing criminals to build convincing fake scenarios; privacy means controlling who learns about you, not broadcasting your life to the entire world.
+
+* **Multi-signature wallets add a human verification layer that disrupts emotional manipulation and extortion** — When spending large amounts requires a trusted co-signer's approval, you're forced to explain the transaction to someone without emotional investment in your crisis, revealing scams; this also protects against kidnapping or extortion since attackers would need multiple people's keys.
+
+* **Face-to-face conversation remains the most reliable verification method as technology mimicry advances** — Video calls can now be faked with AI voice and deepfakes, but in-person meetings let your brain process body language, tone, and environmental cues that digital communication strips away, making it exponentially harder for scammers to maintain their deception.
+
+> **Memorable quote**: "AI helped my scammers be super super effective."
+
+---
+
+## 2026-08-07 — Compré Mi Casa en EL SALVADOR 🇸🇻 El Último Refugio de la Agenda 2030 y el GREAT RESET
+
+**Channel**: Libertad Virtual  
+**Video ID**: `NaxyI3Kjrd4`  
+**URL**: https://youtu.be/NaxyI3Kjrd4  
+**Published**: 2026-07-07
+
+* **Europe is deliberately declining through coordinated policy attacks** — Speakers argue that Europe's deterioration results from intentional implementation of laws and control mechanisms designed to eliminate prosperity and freedom, with COVID-19 serving as a "stress test" that revealed how quickly populations accept unconstitutional orders without meaningful resistance.
+
+* **El Salvador offers legal property ownership and business support absent in Europe** — Unlike Indonesia, Paraguay, and other alternatives analyzed, El Salvador provides secure property rights, territorial tax system (zero tax on foreign income), no property tax (IBI), no inheritance tax, and government officials who actively facilitate rather than obstruct business development.
+
+* **Bukele represents genuine leadership by competence and integrity, not political theater** — Speakers claim Bukele differs fundamentally from Western politicians because he speaks consistently off and on camera with unscripted honesty, demonstrates financial literacy (explaining how currency printing makes taxation unnecessary), and pursues coherent values including family protection and property rights defense.
+
+* **European sovereignty eroded by loss of monetary control to central banks** — Spain and other eurozone nations cannot execute independent policy because they surrendered currency issuance; lacking monetary sovereignty, they become "servants" of institutions that control money flow and cut financing when governments disobey imposed agendas.
+
+* **Bayacity development offers premium beachfront rentals with 22–25% annual returns** — The 200,000-square-meter mixed-use project features a UNESCO-protected bay location, 5-star resort operations managing rental occupancy, ultra-low maintenance fees ($200/month), and estimated nightly rates of $320 with 65% occupancy, delivering projected yields substantially higher than traditional European real estate.
+
+* **Financial system design prevents ordinary citizens from gaining escape options** — Structural inequality means wealthy individuals can diversify internationally and exit deteriorating systems, while most people lack capital to relocate or establish Plan B security, forcing them to accept systemic control through currency scarcity and debt dependency.
+
+> **Memorable quote**: "If you can't change the chessboard, change the game. The only way to win is to get off the board."
+
+---
+
+## 2026-08-07 — How to Move to El Salvador in 2026 🇸🇻 | New Residency Rules Explained | Charity
+
+**Channel**: Charity Hagenaars  
+**Video ID**: `H-LkLrHcjPU`  
+**URL**: https://youtu.be/H-LkLrHcjPU  
+**Published**: 2026-05-31
+
+* **New 90-day residency rule transforms El Salvador for retirees and remote workers** — Previously, temporary residents had to spend most of the year in El Salvador with only 120 days away (90 days consecutive max). Now they need only 90 calendar days annually, cumulative or consecutive, enabling snowbirds, digital nomads, and retirees to split time between countries while maintaining legal residency status.
+
+* **Pensionado visa requires roughly $1,100–$1,250 monthly retirement income** — The retirement pathway (F7) needs proof of stable pension or income at three times El Salvador's minimum wage. This covers Social Security, government pensions, military pensions, and guaranteed retirement funds from Canada, the US, or elsewhere, making it accessible to many foreign retirees.
+
+* **Rentista visa designed for remote workers and passive income earners** — The F8 category (roughly $1,500/month income requirement) covers YouTubers, online business owners, freelancers, digital nomads, rental property investors, and dividend earners—making it the visa category for most modern expats earning outside El Salvador while living on the beach.
+
+* **Apostile documents before arrival; they expire in 90 days** — Criminal background checks, birth certificates, marriage certificates, and diplomas must be apostiled in your home country, not El Salvador, and remain valid for only 90 days. Arriving without pre-apostiled paperwork forces costly returns home or lengthy delays in the immigration process.
+
+* **Enroll children in private bilingual schools with apostiled records translated locally** — Most foreign families use private schools, which require apostiled birth certificates, report cards, and vaccination records—all of which must be translated and notarized in El Salvador, not abroad. Children adapt to Spanish faster than adults, but prepare for an adjustment period.
+
+* **Diaspora families gain major advantages through pre-immigration consular registration** — Salvadoran parents should obtain certified birth certificates and register marriages and children at a Salvadoran consulate before moving. US-born children of Salvadoran parents often qualify for dual citizenship, avoiding treatment as foreigners and simplifying school and residency processes.
+
+* **Expect bureaucratic inefficiency, higher prices for foreigners, and cultural differences** — Banking requires in-person visits with long lines; language barriers persist despite translation tools; and customer service standards differ from North America. Foreigners often overpay rent initially (the "gringo tax"), and rules vary by official or office—patience, flexibility, and realistic expectations are essential.
+
+> **Memorable quote**: "Don't put that in your mind. El Salvador is still El Salvador. And honestly, that's part of what makes it special."
+
+---
+
+## 2026-08-07 — Why Expats Are Leaving El Salvador (It’s NOT What You Think)
+
+**Channel**: Charity Hagenaars  
+**Video ID**: `ZpSU2QBiRw0`  
+**URL**: https://youtu.be/ZpSU2QBiRw0  
+**Published**: 2026-04-26
+
+* **Expats leaving El Salvador often flee their own unresolved habits, not just poor infrastructure** — Charity observes that many relocators stay in expat bubbles, avoid learning Spanish deeply, and skip building local friendships. When dissatisfaction follows them to Panama, it's frequently because they never integrated—they restarted their lives with the same isolating patterns rather than addressing root disconnection.
+
+* **Panama offers concrete advantages that El Salvador genuinely lacks** — Infrastructure, functioning systems, bike lanes, drinkable tap water in many areas, established expat communities, better schools, and easier banking attract migrants for real reasons. One family noticed cleaner streets and "things just worked," which provided tangible relief after struggling with power cuts and bureaucratic friction in El Salvador.
+
+* **Finding community is the invisible factor that determines whether relocation succeeds** — A couple who built strong beach friendships in El Salvador still left because their community was dissolving as others departed and they feared repeating that loss elsewhere. Charity's own turning point came when she shifted from "just living here" to "belonging here," building a weekly ladies group that transformed El Salvador from temporary to home.
+
+* **Successful relocators treat migration as a 7-year research project, not an impulse decision** — Charity's co-worker spent years evaluating infrastructure, climate, political stability, currency, and proximity to family before moving to Panama. Upon arrival, they systematized everything—residency, IDs, bank accounts—and reported zero regrets, now walking 10–12 km daily and saving money through intentional lifestyle design.
+
+* **Language acquisition is a prerequisite for genuine integration, not optional** — The co-worker's advice—"People who don't want to learn Spanish shouldn't relocate"—signals that surface moves fail without linguistic commitment. Skipping this step keeps expats isolated and unable to build authentic local friendships, reinforcing the bubble that spawns chronic dissatisfaction.
+
+> **Memorable quote**: "If you don't find your people, no country will ever feel right. So, is Panama better than El Salvador? Maybe. But that's not the real question. The real question is, did you build a life where you were, or were you just passing through?"
+
+---
+
+## 2026-08-07 — El Salvador in 2026: Why Tourists & Expats Are Suddenly Moving Here
+
+**Channel**: Uncharted Stories  
+**Video ID**: `zOVOzSkEoso`  
+**URL**: https://youtu.be/zOVOzSkEoso  
+**Published**: 2025-11-24
+
+* **Homicide rates have dropped to historically low levels under security reforms** — President Naib Bukle's anti-gang operations transformed El Salvador from a nation where street gangs controlled entire neighborhoods into one where homicide rates fell to levels previously considered unthinkable. Visitors now report feeling safer walking streets in San Salvador or Santa Ana than in major U.S. cities like Chicago, Los Angeles, and New York.
+
+* **One-bedroom apartments rent for $500–$900 monthly in San Salvador** — Cost of living is dramatically lower than the United States or Europe. Coastal surf towns like El Tonkco and Elzani offer long-term rentals between $700–$1,200 depending on oceanside location and amenities, while local restaurant meals cost $4–$8 and fresh groceries remain inexpensive.
+
+* **Natural beauty combines volcanoes, beaches, and historic towns within short distances** — The country features black sand Pacific beaches, lush volcanic landscapes, and colonial towns like Suchitoto that feel like time capsules. Digital nomads can explore waterfalls and national parks without traveling more than a couple of hours across the country.
+
+* **Cultural values of family and community remain central despite modernization** — Religion, family, and neighborhood bonds form the social fabric even in the capital, where development is rapid. Street vendors, fishermen, and small shop owners maintain traditional ways alongside shopping malls and infrastructure improvements.
+
+* **Infrastructure expansion is improving accessibility without sacrificing authenticity** — Roads, airports, and coastal projects are expanding while the country balances ancient Mayan ruins, high-end malls, and Pacific sunsets. The development trajectory maintains local character rather than replacing it with generic tourist development.
+
+> **Memorable quote**: "For people tired of the cost, congestion, and declining safety of major western cities, El Salvador offers something refreshingly straightforward."
+
+---
+
+## 2026-08-07 — Don’t Move to El Salvador Until You See This | 15-Month Reality Check for New Expats | Charity
+
+**Channel**: Charity Hagenaars  
+**Video ID**: `FcoZdVrkqhs`  
+**URL**: https://youtu.be/FcoZdVrkqhs  
+**Published**: 2025-11-22
+
+* **El Salvador costs far more than advertised for expat lifestyles** — While locals spend $250 monthly on groceries, expats seeking imported goods and comfort typically spend $300–$1,300 per month on food alone. A family of five living an expat lifestyle costs $3,000+ monthly once you factor in rent ($850), utilities (electricity spikes dramatically with air conditioning), eating out ($160 weekly), and miscellaneous expenses the online budget guides never mention.
+
+* **Air conditioning bills can quadruple your electricity costs unexpectedly** — Running AC units 24/7 in three bedrooms resulted in a $600 bill in just six weeks, compared to the baseline $100–$150 monthly utility cost. Locals who don't use air conditioning pay far less; expats relying on cooling must budget accordingly or learn to live with fans and heat.
+
+* **The newfound safety creates genuine freedom but requires vigilance** — Crime has plummeted under President Bukele, enabling people to walk neighborhoods and visit malls day or night without fear—a dramatic shift from three years ago. However, the heavy police and military presence is the enabler; flashing wealth still attracts opportunists, and relying on that armed presence requires you to stay near it, making gated communities the practical choice for expat families.
+
+* **Bureaucracy runs on personal connections, not official processes** — Government websites list official procedures, but the real system requires word-of-mouth contacts, local lawyers or "fixers," notaries, and translators who know how to navigate the opacity. The family visited immigration three times for residency applications and still encountered errors; without local help, they would have made four trips and spent an extra $120–$150 on micro bus rentals.
+
+* **School enrollment demands constant in-person meetings throughout the year** — Unlike Canada where documents are emailed and items given to children, Salvadoran schools require parents to attend monthly meetings to collect textbooks, uniforms, laptops, and re-enrollment paperwork in person. Working parents must take regular days off; the family spent an entire day at school and still must return twice more for additional paperwork collection and delivery.
+
+* **Critical documents must be notarized and apostilled before arrival** — Children's report cards and transcripts require official notarization and apostille stamps to enroll in school, but the family brought them too late and had to ship them from Canada via courier ($60) while racing a deadline. Obtaining these documents before moving prevents delays and additional expense.
+
+* **Learning Spanish is the single most powerful tool for integration** — Basic Spanish proficiency opens doors with bureaucrats, builds trust with locals, and transforms your status from visitor to community member. Without it, you remain dependent on translators and facilitators for every official interaction and miss the human connections that make daily life easier.
+
+> **Memorable quote**: "El Salvador is a beautiful country filled with some of the warmest, most resilient people that we've ever met. It's in the middle of an incredible comeback story, like a true phoenix rising from the ashes. But it's not a perfect paradise. It's a real place with its own complexities."
+
+---
+
+## 2026-08-07 — Turning a Retirement Nightmare into a Beach Dream in El Salvador 🇸🇻🏖️ | Leaving The U.S.
+
+**Channel**: Jeni Ari - La Gringa Salvadoreña  
+**Video ID**: `s-mQkGkudsE`  
+**URL**: https://youtu.be/s-mQkGkudsE  
+**Published**: 2025-10-10
+
+* **Retiring in El Salvador costs a fraction of U.S. retirement expenses** — Anita and her husband maintain a luxury beachfront condo in a gated community with professional maintenance staff and security at a significantly lower cost than comparable retirement in Florida, allowing them to live comfortably on far less savings than required in the States.
+
+* **El Salvador's culture prioritizes elder care within families, not institutions** — Nursing homes are virtually nonexistent in El Salvador; instead, extended family and community members collectively care for aging relatives in their homes, a practice that has largely disappeared in the United States but provides meaningful emotional connection and dignity for older people.
+
+* **Language barriers dissolve through nonverbal communication and community relationships** — Despite minimal Spanish fluency, Anita has built deep friendships using facial expressions, gestures, and photos, and locals often speak English; the key is developing genuine relationships with merchants, neighbors, and service providers who remember your preferences and actively help you.
+
+* **Fresh food sourcing replaces supermarket convenience with local networks** — Rather than shopping at chains, residents build relationships with fruit vendors and local merchants who text alerts about fresh produce and hold items by name; everything is made from raw ingredients rather than processed foods, requiring no label reading and costing considerably less than U.S. grocery prices.
+
+* **Legal services require careful vetting because El Salvador lacks tort law protections** — Extremely cheap lawyers ($200) often deliver worthless results, while inflated prices ($2,500+) may indicate "gringo tax" scams; the safest approach is mid-range pricing ($1,200) with multiple verified referrals and word-of-mouth confirmation, not Facebook recommendations from unnamed relatives.
+
+* **Costa del Sol offers a calm, family-oriented beach alternative to El Salvador's surf towns** — This peninsula community features protected waters with yachts and calm bays rather than surfable waves, attracting international boaters and retirees seeking a "Fort Lauderdale vibe" with gated developments, multiple pools, and low-key weekday solitude.
+
+* **Significant development and infrastructure improvements are transforming El Salvador's economy** — Major public projects including redesigned parks, road upgrades, and capital city renovations reflect courageous government decisions and create contractor jobs, signaling long-term investment in the country's future and supporting Anita's hope to champion El Salvador's transformation.
+
+> **Memorable quote**: "In the United States you don't. Here you reach out and we had a very unfortunate situation happen here. We had a death of a friend. And that family got on the phone and called some of us and we were up there in no time."
+
+---
+
+## 2026-08-07 — Review of Our 1 YEAR Living in El Salvador.  Was it Worth it?  Any Regrets?
+
+**Channel**: Living El Salvador  
+**Video ID**: `4UanjOFpZEs`  
+**URL**: https://youtu.be/4UanjOFpZEs  
+**Published**: 2025-04-29
+
+* **One year in El Salvador after multiple failed attempts** — Joanna and her husband have now completed their first full year living in El Salvador after previously moving back and forth between Canada and the country multiple times since 2007, each time facing unexpected challenges that forced them to return to Canada until finally committing permanently in 2024.
+
+* **Land prices have doubled or tripled since 2019** — Despite watching the property market for years from Canada, the couple has struggled to purchase farmland as originally planned; prices skyrocketed during their first year, and the specific property they wanted sold to another buyer while they waited eight months to sell their Canadian beach house.
+
+* **Cost of living has risen significantly but remains affordable** — While a family of four could survive on $1,000 monthly in 2019, it now requires substantially more for comfortable living; Joanna and her husband spend around $700 monthly for just the two of them excluding rent, which is still far cheaper than Canada where even one person cannot survive on that budget.
+
+* **El Salvador has transformed into one of the world's safest countries** — The dramatic improvement in public safety since 2007 is evident; Joanna's son felt secure walking home from soccer at midnight by himself in 2022, and she reports feeling safer there than in Canada, representing a stark contrast to the country's former reputation.
+
+* **Beach properties and fitness culture have experienced explosive growth** — Beachfront land that was cheap and undesired in 2007 is now sold out with expensive homes throughout, and gym membership has surged with women actively participating in fitness, making it an ideal time to open a kickboxing club that would have had no market a decade ago.
+
+* **Healthcare system is affordable and efficient without mandatory insurance** — Medical services require no monthly insurance payments; a complete medical checkup with blood tests, ultrasounds, and consultations cost Joanna $96 and her husband $112 total, with results available the same day from comprehensive clinics attached to hospitals.
+
+* **Widespread sugar consumption driving diabetes epidemic among young people** — Joanna witnessed friends and acquaintances in their 40s and 50s suffer severe diabetes complications including blindness and amputation, attributing the crisis to El Salvador's population drinking only Coke and juices rather than water, a health crisis she hopes to address through future community education.
+
+> **Memorable quote**: "We got rid of everything again in Canada, cars, jobs, we got rid of it, pack our bags and came over here. And so this is really excited for us because this is actually the final move for him."
+
+---
+
+## 2026-08-07 — How Much Does It Cost To Live In EL SALVADOR? | Live in El Salvador (Cheap)
+
+**Channel**: Adventure Freaksss   
+**Video ID**: `5GE8pow4ZJE`  
+**URL**: https://youtu.be/5GE8pow4ZJE  
+**Published**: 2024-12-16
+
+* **El Salvador transformed from murder capital to safest Western Hemisphere country** — President Nayib Bukele has delivered dramatic security improvements in just a few years, moving El Salvador from being plagued by gang violence and kidnappings to a safer nation than the US itself. His outsider approach—rejecting negotiation with criminal organizations and following through on campaign promises—earned him over 90% approval ratings among citizens.
+
+* **Retirement visas require only $1,100–$1,200 monthly income** — The pensionado residency visa requires showing income equivalent to three times El Salvador's minimum wage (around $350–$400), making it accessible to most US retirees on social security. However, hiring a competent immigration lawyer is essential, as bureaucratic requirements have hidden time limits on documents that aren't publicly listed.
+
+* **Rentals range from $300–$800 depending on location and amenities** — Budget accommodations in towns outside San Salvador start around $300–$400 monthly, while nicer apartments in the capital's upscale neighborhoods (Escalón, San Benito) cost $700–$800. A three-bedroom townhouse outside the city costs around $600–$650, though many rental contracts contain restrictive clauses that foreign residents should have lawyers review.
+
+* **Groceries cost $300–$400 monthly when shopping at local markets** — Produce at farmers markets is dramatically cheaper than US prices—bananas for $1 per dozen, limes for $1 per ten, watermelons for $2. Shopping at supermarkets for meat and dairy is recommended, though local fresh cheese differs significantly from hard American varieties.
+
+* **Restaurant meals at local mercados cost $3–$5 for full plates** — Small restaurants inside city markets serve rice, salad, meat, tortillas, and juice for about $3.50. Even foreign restaurants and chains like Denny's are cheaper than US equivalents, typically $6–$7 per plate, while Uber rides across the country cost $10–$15.
+
+* **Private healthcare costs $15–$40 per visit without insurance** — Dental implants and major procedures cost 75% less than in the US, with hospital stays including meals available for $150 daily. Routine doctor visits run $15–$40 for English-speaking providers, and diagnostic tests cost $10–$20.
+
+> **Memorable quote**: "He just actually kept his word he made campaign promises and then he kept them and so it's the easy formula to become popular is be good for your word."
+
+---
+
+## 2026-08-07 — LIFE IN EL SALVADOR: CHEAP Country With The Most BEAUTIFUL WOMEN On EARTH Who LOVES EXPATS!
+
+**Channel**: Andy Explores the World  
+**Video ID**: `AM2FAbIXBuE`  
+**URL**: https://youtu.be/AM2FAbIXBuE  
+**Published**: 2024-10-29
+
+* **El Salvador's volcanic landscape defines its geography and history** — The country contains over 20 active volcanoes and covers just 21,000 square kilometers, earning it the nickname "land of volcanoes." This volcanic soil historically supported coffee cultivation, which became "green gold" and shaped the nation's economy, while volcanic ash preserved the pre-Columbian village of Joya de Cerén, often called the Pompei of the Americas.
+
+* **Civil war devastation gave way to democratic stability and modernization** — A brutal 32-year civil war from 1979 to 1992 killed tens of thousands before the UN-mediated Chapultepec Peace Accords ended the conflict. Since then, El Salvador has focused on political stability, economic diversification, and infrastructure improvements, including ventures into the tech industry and recent Bitcoin adoption initiatives.
+
+* **Cost of living remains exceptionally affordable compared to regional neighbors** — Monthly rent in central San Salvador averages $778 while suburban areas cost $350–$500; utilities run about $124 monthly; meals at mid-range restaurants cost around $16; and local bus fares are just 30 cents. This affordability significantly undercuts Costa Rica and Panama, making it attractive for budget travelers and expatriates.
+
+* **Safety concerns in urban gang territories offset tourism infrastructure improvements** — While the government has recently implemented strict safety measures and expanded tourism infrastructure in popular areas, gang-related violence remains a serious concern in urban regions. Visitors are advised to exercise caution and avoid certain areas, though the smaller, less commercialized nature of the country appeals to those seeking immersive cultural experiences over tourist-heavy destinations.
+
+* **Salvadoran culture blends indigenous Pipil and Spanish traditions through food and celebration** — Family and community are central to daily life, with multiple generations often sharing homes and Catholicism serving as the dominant religion. The country celebrates unique traditions like Las Bolas de Fuego, where participants throw fireballs to commemorate volcanic eruptions, while pusas—stuffed tortillas so beloved they have a national day—exemplify the fusion of cultural influences in local cuisine.
+
+* **Natural disasters including earthquakes and hurricanes demand preparedness from residents** — El Salvador's geographic position makes it prone to earthquakes, volcanic eruptions, and hurricanes, which have shaped both the landscape and the resilience of its people. Long-term residents and visitors must stay informed and prepared for sudden environmental changes, making this a consideration for those planning extended stays or relocation.
+
+> **Memorable quote**: "El Salvador offers a mix of experiences that make it one of Central America's most surprising destinations."
+
+---

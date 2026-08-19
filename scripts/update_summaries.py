@@ -131,7 +131,14 @@ def fetch_playlist_items(yt, playlist_id: str) -> list[str]:
             maxResults=50,
             pageToken=page,
         )
-        resp = req.execute()
+        try:
+            resp = req.execute()
+        except HttpError as e:
+            # A stale/invalid nextPageToken can surface as a 404 partway through
+            # pagination even though the playlist itself is fine. Keep whatever
+            # pages already succeeded instead of discarding them.
+            print(f"playlist {playlist_id} page error (keeping {len(ids)} already fetched): {e}", file=sys.stderr)
+            break
         for item in resp.get("items", []):
             title = item["snippet"].get("title", "")
             if title in ("Deleted video", "Private video"):

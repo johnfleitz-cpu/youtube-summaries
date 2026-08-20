@@ -1624,3 +1624,26 @@ Memorable quote: "I swear to God it's the best 10 seconds of your life" — refe
 > **Memorable quote**: "I didn't want to get to that point in my life where I worked all this time and saved up all this money and then two years later I get a heart attack."
 
 ---
+
+## 2026-08-20 — Honest Conversations with Logan Duvall
+
+**Channel**: Emmanuela Urbani  
+**Video ID**: `-YcaN_BhDW4`  
+**URL**: https://youtu.be/-YcaN_BhDW4  
+**Published**: 2026-06-14
+
+* **Sun exposure prevents cancer, not causes it** — Logan challenges the mainstream narrative by citing epidemiological data: melanoma rates are highest in Washington and Vermont, regions with minimal sun exposure, contradicting the claim that UV radiation causes skin cancer. The foundational studies linking UV to cancer are petri dish experiments using mercury lamps and cultured cells that don't resemble natural sunlight, making the causal claim scientifically unfounded.
+
+* **Magnetism is the primary driver of metabolic health** — Both speakers experienced dramatic improvements in sleep, dreaming, energy, cognitive function, and even sexual health during their time in El Salvador, which Logan attributes to the planet's magnetic environment rather than diet or sun alone. This magnetism influences every metabolic process, making it foundational to understanding why people feel radically better in certain geographic locations.
+
+* **Food ranks lower than environment in health hierarchy** — Despite owning a farmer's market, Logan agrees with Dr. Kruse that food is fifth or sixth on the priority list, not first. Both speakers ate local junk food in El Salvador and felt exceptional; conversely, they can eat perfectly in Canada or Arkansas and feel terrible, proving that environmental factors like light, water, magnetism, and temperature override dietary perfection.
+
+* **Expat colonization threatens El Salvador's social fabric** — Logan criticizes wealthy foreigners buying land, building retreats, and raising prices in ways that exclude locals and exploit the country rather than integrating or building its middle class. True sustainable engagement means learning Spanish, respecting indigenous agriculture practices, and partnering with locals rather than imposing external solutions.
+
+* **Modern physics foundations are incomplete in biology** — Logan argues that biophysicists and medical professionals lack understanding of fundamental physics needed to explain mitochondrial function, membrane geometry, and ion behavior in water. Without Barry Ninham's corrected physics framework, practitioners misunderstand lipid chemistry and colloidal dynamics, leading them to wrong conclusions about health interventions.
+
+* **Authority-seeking behavior is systematically engineered through institutions** — The education, medical, and financial systems have conditioned people to defer to external authorities rather than develop discernment and first-principles thinking. This explains why cancer patients won't relocate from toxic environments or why parents struggle to raise children differently despite seeing evidence that conventional advice harms them.
+
+> **Memorable quote**: "There's no such thing as skin cancer from the sun. The entire thing is just psychotic."
+
+---

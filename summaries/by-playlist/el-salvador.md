@@ -1647,3 +1647,26 @@ Memorable quote: "I swear to God it's the best 10 seconds of your life" — refe
 > **Memorable quote**: "There's no such thing as skin cancer from the sun. The entire thing is just psychotic."
 
 ---
+
+## 2026-08-23 — How I Became a Salvadoran Citizen 🇸🇻 | My Journey to Citizenship
+
+**Channel**: Jeni Ari - La Gringa Salvadoreña  
+**Video ID**: `LEavXpeDIec`  
+**URL**: https://youtu.be/LEavXpeDIec  
+**Published**: 2026-08-16
+
+* **Salvadoran citizenship requires passing a 100-question Spanish test plus singing the national anthem** — The citizenship exam covers El Salvador's history, demographics, and geopolitical facts entirely in Spanish, with a 70% passing threshold. Applicants must also memorize and perform the national hymn, which uses old-school Spanish vocabulary that doesn't always translate intuitively.
+
+* **Citizenship takes six months to a year due to multiple bureaucratic steps** — The process involves applying at immigration, publishing petitions in newspapers, retrieving published copies within specific timeframes, submitting documents to immigration again, passing the test, and coordinating final appointments. Each step requires navigating San Salvador traffic and strict office hours closing at 3:30 p.m.
+
+* **Many residents avoid citizenship because it costs significantly more than renewing residency** — While the upfront citizenship application fee alone is $700, plus publication and government fees, permanent residency renewal is simpler and cheaper. However, once citizenship is obtained, residents no longer need to continuously renew their residency status, making it cost-neutral long-term.
+
+* **Language barriers deter expats from pursuing citizenship despite years of residency** — Salvadorans are accommodating to residents who speak minimal Spanish in daily life, but the entirely Spanish-language test intimidates many expats who have relied on locals' willingness to help. Fluency sufficient for ordering at restaurants doesn't translate to answering formal examination questions.
+
+* **Citizenship unlocks tangible benefits like accessing national art institutes and obtaining a Salvadoran passport** — Only Salvadoran citizens can enroll in the national art and dance institute. Full citizenship also provides a second passport and qualifies people for other perks the government is rolling out under President Bukele's administration.
+
+* **Learning through story format and music aids memory better than rote memorization of historical facts** — At age 49, the speaker found memorizing 100 disconnected facts about Salvadoran history tedious and ineffective. Creating educational materials that embed the information in narrative stories and set the national anthem to a bouncing-ball video makes retention automatic rather than forced.
+
+> **Memorable quote**: "If you haven't been in school in a long time, like me, I'm 49, like going back and memorizing kind of rote facts, it's really boring and my brain don't work that well anymore when it comes to rote memorization."
+
+---

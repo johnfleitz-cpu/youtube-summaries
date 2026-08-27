@@ -1670,3 +1670,28 @@ Memorable quote: "I swear to God it's the best 10 seconds of your life" — refe
 > **Memorable quote**: "If you haven't been in school in a long time, like me, I'm 49, like going back and memorizing kind of rote facts, it's really boring and my brain don't work that well anymore when it comes to rote memorization."
 
 ---
+
+## 2026-08-27 — EL SALVADOR: Where Fire Meets the Pacific | Volcanoes, Waves and a Country Rewritten
+
+**Channel**: VoyagersTV  
+**Video ID**: `PZNHGYEPkYQ`  
+**URL**: https://youtu.be/PZNHGYEPkYQ  
+**Published**: 2026-04-04
+
+* **El Salvador became a tourism powerhouse almost overnight** — In 2025, over four million international visitors arrived, with the UN ranking it second globally for tourism growth. February 2026 alone saw eight hundred thousand visitors, the highest monthly total in the country's history, driven by improved security, expanded infrastructure, and word-of-mouth discovery of world-class surf, breathtaking volcanoes, and warm hospitality.
+
+* **Twenty-three volcanoes shaped every aspect of Salvadoran geography and culture** — The country's twenty-one thousand square kilometers contain more than twenty volcanic peaks, some dormant and some active, which created the soil, lakes, and even the coffee that defines the nation. Santa Ana Volcano holds a turquoise crater lake that shifts color depending on volcanic activity, while Izalco, born in 1770, once guided Pacific sailors as the "Lighthouse of the Pacific."
+
+* **Lake Coatepeque's turquoise transformations result from deep volcanic mineralization** — University of El Salvador researchers discovered that while microalgae and cyanobacteria contribute, the lake's striking turquoise episodes between June and August are primarily caused by natural mineralization from deep within the volcanic basin. Astronauts aboard the International Space Station have photographed this phenomenon from orbit.
+
+* **Joya de Cerén preserves an ordinary Maya village frozen in ash for fourteen centuries** — When the nearby Loma Caldera volcano erupted around 600 AD, it buried an entire farming community under fifteen to twenty feet of ash, leaving behind sleeping mats, bean-filled pots, tools, and garden outlines exactly as residents left them. UNESCO calls it the Pompeii of the Americas because it reveals how ordinary families—not kings or priests—actually lived.
+
+* **Tazumal connects El Salvador to vast Mesoamerican trade networks dating back three thousand years** — Settled around 1000 BC, this ceremonial pyramid complex shows archaeological evidence of connections to Teotihuacan in Mexico, Kaminaljuyu in Guatemala, Copán in Honduras, and even Chichén Itza on the Yucatán Peninsula. Three gold ornaments using the lost wax technique, dated to the eighth century AD, rank among the earliest metal artifacts in the entire Maya world.
+
+* **El Salvador's coastline became a World Surfing Reserve with consistent, world-class breaks** — Towns like El Tunco, El Zonte, and El Sunzal draw surfers with perfectly shaped waves and black-sand beaches, while the eastern coast around Punta Mango and Playa El Cuco offers uncrowded point breaks. In 2025, five major international surfing competitions were held here, cementing El Salvador's place on the global surf map.
+
+* **The pupusa embodies Salvadoran culture and hospitality more than any monument** — This handmade corn tortilla filled with cheese, beans, loroco, or slow-cooked pork is found everywhere from street corners to upscale restaurants, costs almost nothing, and tastes like home even to first-time visitors. The country dedicates a national holiday to it, and the town of Olocuilta, fifteen minutes from the airport, is widely recognized as its birthplace.
+
+> **Memorable quote**: "El Salvador is not waiting to be discovered. It has always been here. The volcanoes have always guarded these valleys. The lakes have always shimmered inside their craters. The people have always known the warmth of sharing a meal, a story, a place at the table."
+
+---

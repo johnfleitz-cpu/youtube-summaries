@@ -1695,3 +1695,76 @@ Memorable quote: "I swear to God it's the best 10 seconds of your life" — refe
 > **Memorable quote**: "El Salvador is not waiting to be discovered. It has always been here. The volcanoes have always guarded these valleys. The lakes have always shimmered inside their craters. The people have always known the warmth of sharing a meal, a story, a place at the table."
 
 ---
+
+## 2026-10-12 — Compré mi Casa en EL SALVADOR 🇸🇻 Para Huir de la Agenda 2030 y Europa
+
+**Channel**: Libertad Virtual  
+**Video ID**: `y6ZWrG8ddCQ`  
+**URL**: https://youtu.be/y6ZWrG8ddCQ  
+**Published**: 2026-09-14
+
+* **Europe's trajectory toward authoritarianism made leaving Spain inevitable** — Sergio and Nacho describe a deliberate dismantling of individual freedoms through unconstitutional COVID laws, destruction of private property protections, weaponized education that eliminates ethics and morality teaching, and deliberate social fragmentation via gender and regional division to ensure disunity when crisis arrives, all orchestrated over 50+ years since 1975.
+
+* **Western governments intentionally keep populations in survival mode to prevent resistance** — By crushing people financially and offering only television as education, governments eliminate the time and mental space needed for people to think critically or organize. Media manufactures crises—pandemics, wars, shortages—in relentless succession to lower vibration and create learned helplessness where citizens believe they can do nothing.
+
+* **Bukele's El Salvador represents proof that rapid crime elimination and prosperity are possible** — Despite Western media portraying him as a dictator, Bukele transformed the world's most dangerous country into America's safest in years with 94% popular support, proving that leadership rooted in spiritual values, courage, and clear identification of evil can succeed where Western governments claim solutions are impossible.
+
+* **El Salvador's tax structure rewards wealth creation and property ownership, not punishment** — Zero tax on foreign income and digital assets, no property tax, no wealth or inheritance tax, 25% corporate tax with 5% dividend tax, and 13% VAT create an environment designed for generational wealth building, contrasting sharply with Europe's neo-feudal taxation that confiscates assets across generations.
+
+* **Jiquilisco Bay's unique geography creates sustainable real estate value and lifestyle advantages** — Located within a UNESCO Biosphere Reserve on 1.2 million square meters of beach, the area combines pristine 40km beaches, crystal-clear seawater (preventing mosquitoes), natural cooling from tidal breezes that lower temperature 4 degrees versus other beaches, protected mangrove forests, and no rocks—offering exclusivity impossible to replicate while remaining connected via new highway access.
+
+* **The project attracts conscious people through founder-stage pricing, filtering out purely commercial investors** — By selling at early-stage prices ($40,000–$270,000 complete villas versus projected market values of $420,000+) before completion, only those who see the vision and share values participate; occupancy rates of 60–80% and nightly rentals of $200–$400 create passive income while building a aligned community rather than a commercial development.
+
+* **Fighting a sinking ship versus building lifeboats requires accepting geographic mobility as responsibility** — After 20+ years of fighting bureaucratic expansion in Spain with no systemic change visible, leaving is not cowardice but prudent stewardship of family future; only 20% of Americans stay in their birth state, and Venezuela's collapse proves waiting for systemic reform is gambling with children's lives.
+
+> **Memorable quote**: "If you can't change your environment after trying hard, after doing it in a thousand ways, then change your environment. But I am the captain of my life and the captain of my soul, not any government, except for God."
+
+---
+
+## 2026-10-12 — ¿Cuánto cuesta vivir en LA ZONA MÁS EXCLUSIVA de El SALVADOR en 2026? 
+
+**Channel**: Bren la viajera  
+**Video ID**: `2NIcAyhP9Vo`  
+**URL**: https://youtu.be/2NIcAyhP9Vo  
+**Published**: 2026-07-31
+
+* **Studio apartments in Zona Rosa cost $315,000–$375,000 for minimal space** — New luxury towers in San Benito charge premium prices for single-room studios with kitchens, bathrooms, and living areas compressed into one space. Despite impressive views, the speaker questions whether the cost justifies the confined square footage compared to what $375,000 could purchase elsewhere.
+
+* **Monthly rentals in exclusive areas range from $850 to $2,000 depending on location** — Zona Rosa apartments command $1,000–$2,000 monthly rent, while Paseo Escalón and surrounding neighborhoods offer lower rates starting around $500 and up. Prices vary significantly based on building prestige and amenities like gyms, coworking spaces, and terraces.
+
+* **El Salvador's real estate market is experiencing a speculative bubble driven by investor demand** — No price regulation exists as buyers purchase properties intending to resell at double or triple the purchase price. The speaker predicts prices will eventually stabilize once supply increases from the estimated 500 construction projects currently underway across San Salvador, forcing competition and market correction.
+
+* **Restaurants in upscale zones charge $5.50–$14 per entrée with meals costing $10 and up** — Appetizers start at $6.50, soups and salads at $7.50–$12.50, and combo plates at $8.35–$12. Bottled water costs $3–$4, reflecting typical pricing for sit-down dining in high-value areas like Zona Rosa.
+
+* **San Salvador offers sharp contrasts between luxury towers and informal communities blocks apart** — Modern apartment complexes with amenities sit directly adjacent to established neighborhoods like Las Palmas, where informal vendors sell street goods and residents improvise cooling solutions. This juxtaposition reflects broader Latin American wealth inequality within the same geographic area.
+
+* **Google's entry and government security improvements are enabling San Salvador's transformation** — Google established offices two years ago to digitize services; health initiatives like Doctor SB now provide telemedicine and lab prescriptions accessible via smartphone. Improved security under current governance has made previously dangerous neighborhoods accessible to visitors and residents for the first time.
+
+* **Historic center is undergoing rapid renovation with new restaurants and constant commercial activity** — The city center has transformed dramatically from a deteriorated state into a vibrant tourism and dining hub with franchise restaurants and late-night foot traffic. Daily changes and new openings suggest ongoing reinvestment that rivals central districts in major Latin American capitals.
+
+> **Memorable quote**: "Right now, since there are clearly few options, things are selling like hotcakes, but a time will come when there will be so many towers that they will have to compete in a market where people are paying a little less."
+
+---
+
+## 2026-10-12 — Why Everyone is Moving to El Salvador 🇸🇻
+
+**Channel**: Chris Rodriguez  
+**Video ID**: `_wgOzwcyT7M`  
+**URL**: https://youtu.be/_wgOzwcyT7M  
+**Published**: 2026-05-01
+
+* **El Salvador offers exceptional safety compared to neighboring Central American countries** — Rodriguez emphasizes that San Salvador feels fundamentally different from Guatemala City or Mexico, where constant vigilance is necessary. He can walk freely through the city center without the anxiety he experiences elsewhere, attributing this to visible police and military presence throughout the historic district.
+
+* **New infrastructure development has transformed the city center into a modern tourist destination** — The historic center underwent major construction over the past couple years, adding a flagship Starbucks modeled as a museum of Salvadorian coffee culture, new hotels like Cordadao, a modern library, and bike-sharing stations. Cello notes he was the first guest to sleep in a newly opened luxury hotel in January.
+
+* **Cost of living remains remarkably affordable for fitness and dining** — A full traditional breakfast (plantains, beans, eggs, bread, coffee) costs $6, while modern gyms charge only $5 for day passes with state-of-the-art equipment. Protein shakes run about 750 colones, and restaurants offer menu del día specials for $4–$5 Monday through Friday.
+
+* **Antiguo Cuscatlán provides a gated community lifestyle with modern amenities** — The neighborhood features secure gated colonias with excellent schools, swimming pools, gyms, and a family-friendly atmosphere. Rodriguez recommends it specifically for travelers seeking Airbnbs in a safe, comfortable setting near the city center.
+
+* **Travel content creation requires extensive behind-the-scenes computer work beyond filming** — Rodriguez and his collaborator spend hours daily handling YouTube uploads, writing titles and descriptions, designing thumbnails, and managing the technical dashboard—work that doesn't appear on camera but proves essential to sustaining their travel lifestyle.
+
+* **Pursuing passion-driven work requires patience and trust in the process over time** — Rodriguez credits long-term commitment and accepting the struggle as key to turning travel dreams into sustainable income, cautioning that overnight success rarely leads to genuine appreciation for achievements.
+
+> **Memorable quote**: "Pupusas are like making love, man. Even when it's bad, it's still all right."
+
+---

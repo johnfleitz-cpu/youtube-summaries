@@ -1768,3 +1768,26 @@ Memorable quote: "I swear to God it's the best 10 seconds of your life" — refe
 > **Memorable quote**: "Pupusas are like making love, man. Even when it's bad, it's still all right."
 
 ---
+
+## 2026-10-14 — The Honest Truth About Moving to El Salvador 🇸🇻
+
+**Channel**: Jeni Ari - La Gringa Salvadoreña  
+**Video ID**: `DieWDX6kjnk`  
+**URL**: https://youtu.be/DieWDX6kjnk  
+**Published**: 2026-10-11
+
+* **Business transition from hands-on work to remote management proved impossible** — Cal's electrical contracting business in Florida depended entirely on his on-site presence, and the couple's attempt to convert it into a referral-based system that could run remotely failed. Despite having electricians near signing and consistent incoming calls, they couldn't perfect the logistics and felt mounting pressure rather than freedom.
+
+* **Income generation opportunities didn't materialize as planned** — Karina's e-commerce store, her HR job prospects, and starting a new electrical business in El Salvador all fell through. The cost of living, while lower than Florida, still required earning at their previous income level to maintain the family's standard of living comfortably.
+
+* **Language barrier limited cultural integration and family connection** — Cal deeply regretted not learning Spanish before the move, which prevented fuller immersion with Karina's extended family and the community. Despite Karina's family members speaking English, genuine connection suffered without linguistic capability.
+
+* **Financial stability and cash flow anxiety overshadowed lifestyle benefits** — The couple felt increasingly stuck financially, unable to relax into the experience because income generation became urgent. Every moment not managing US clients meant losing business to competitors, forcing Cal to work remotely constantly rather than enjoying family time.
+
+* **One year was insufficient to build new business reputation from scratch** — Starting over requires deep local adaptation and time to establish credibility in El Salvador's different business culture. Cal realized stretching thin between multiple ventures would ultimately provide less family security than maintaining their proven US operation.
+
+* **Keeping escape routes open proved crucial for managing risk** — The couple didn't sell their Florida house or fully close their business, which enabled them to pivot without catastrophic loss. They emphasized this strategic flexibility as essential advice for other prospective movers.
+
+> **Memorable quote**: "The most important thing is making a living to provide for our kids, you know, and you know, when you try all these different things, you know, you have to make the tough decisions sometimes."
+
+---

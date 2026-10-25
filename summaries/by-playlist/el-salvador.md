@@ -1791,3 +1791,28 @@ Memorable quote: "I swear to God it's the best 10 seconds of your life" — refe
 > **Memorable quote**: "The most important thing is making a living to provide for our kids, you know, and you know, when you try all these different things, you know, you have to make the tough decisions sometimes."
 
 ---
+
+## 2026-10-25 — Investing in El Salvador Real Estate: Surf City & New Developments | Max Novoa
+
+**Channel**: Goodlife El Salvador  
+**Video ID**: `Nzv9weFOUnA`  
+**URL**: https://youtu.be/Nzv9weFOUnA  
+**Published**: 2026-10-23
+
+* **The Cliff offers 104 ocean-view lots with 30% infrastructure complete** — Located one kilometer past Sunzal in Surf City, just 25 minutes from San Salvador and the airport, The Cliff spans 20 manzanas with 61 lots already sold. Development includes yoga spaces, fire pits, and extensive road infrastructure, with expected completion in approximately 12 months.
+
+* **Two Surf creates a flexible "walk to the wave" Airbnb system across multiple properties** — Max has purchased seven properties structured as concierge Airbnb developments where guests can transfer between locations (Punta Mango, Sunzal, Slas) by paying only cleaning fees and transportation, enabling investors to participate with $1–$2 million equity stakes in individual properties generating double-digit returns.
+
+* **Ensenada project offers 30–33% equity stakes with six-to-seven-year repayment terms** — Positioned one kilometer from Alzonte's entrance, this 12-villa oceanfront development targets relevant investors through partnerships where Max contributes land value as equity, structures local bank debt for the remainder, and operates everything while maintaining equal common stock with outside investors.
+
+* **Max structures deals as cash-in partnerships, not debt, aligning his risk with investors'** — By contributing land value equal to what outside investors bring, then covering additional project costs through bank financing, Max ensures he shares two-thirds to three-quarters of project risk, making success mutually dependent and attracting serious capital partners who trust his 30-year business track record.
+
+* **The upcoming coastal highway will drive 20–30% land appreciation within two years** — Government funding is already allocated and construction has begun on the road connecting the littoral, creating a unique window for land acquisition before the infrastructure multiplies property values across Surf City and surrounding areas.
+
+* **El Salvador's scale and tech environment position it as a "Singapore of Central America"** — With Bitcoin adoption, fintech development, tourism records (exceeding Costa Rica), and a government investing in technology to reduce poverty, the country remains vastly undervalued compared to international comparables—land selling by the meter rather than the foot—making early entry still viable despite rapid growth.
+
+* **Preserving Salvadoran culture and surfing etiquette requires community protocols amid explosive growth** — As foreign investment accelerates, Max emphasizes protecting traditional food, national pride, and respectful wave-sharing practices through shared governance; losing these elements while gaining infrastructure would undermine the lifestyle appeal driving investment.
+
+> **Memorable quote**: "You're buying meters. In the world they sell feet. So just by that they know that they're not late."
+
+---
